@@ -1,0 +1,132 @@
+---
+title: "Biological manganese oxidation - in vitro BODAC inocula"
+author: "Pieter van Veelen"
+date: "2022-10-21"
+output: html_document
+---
+
+**The full RMarkdown document is available as RMD file in this repository**
+<br>
+```{r , eval=TRUE, echo=FALSE, include=FALSE, message=FALSE, warning=FALSE}
+
+# set optional parameters
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE, 
+                      message = FALSE)
+options(scipen = 999, digits = 3)
+```
+
+```{r install packages, eval=TRUE, echo=FALSE, include=FALSE, message=FALSE, warning=FALSE}
+
+# install packages
+if (!requireNamespace("BiocManager", quietly = TRUE)){install.packages("BiocManager")}
+if (!requireNamespace("devtools", quietly = TRUE)){install.packages("devtools")}
+if (!requireNamespace("remotes", quietly = TRUE)){install.packages("remotes")}
+if (!requireNamespace("BiocManager", quietly = TRUE)){BiocManager::install(version = "3.12")}
+if (!requireNamespace("phyloseq", quietly = TRUE)){BiocManager::install("phyloseq")}
+if (!requireNamespace("microbiome", quietly = TRUE)){BiocManager::install("microbiome")}
+if (!requireNamespace("decontam", quietly = TRUE)){BiocManager::install("decontam")}
+if (!requireNamespace("qiime2R", quietly = TRUE)){devtools::install_github("jbisanz/qiime2R")}
+if (!requireNamespace("breakaway", quietly = TRUE)){remotes::install_github("adw96/breakaway")}
+if (!requireNamespace("DivNet", quietly = TRUE)){remotes::install_github("adw96/DivNet")}
+if (!requireNamespace("ampvis2", quietly = TRUE)){remotes::install_github("MadsAlbertsen/ampvis2")}
+if (!require("DECIPHER", quietly = TRUE)) {BiocManager::install("DECIPHER", version = "3.12")}
+if (!requireNamespace("ensembleTax", quietly = TRUE)){install.packages("ensembleTax")}
+
+
+
+```
+
+```{r library loading, message=F, echo=T, eval=T, warning=T, include=F, cache=F}
+
+## load required packages
+library(Hmisc)
+library(phyloseq)
+library(qiime2R)
+library(tidyverse)
+library(magrittr)
+library(devtools)
+library(qiime2R)
+library(here)
+library(breakaway)
+library(DivNet)
+library(openxlsx)
+library(ape)
+library(vegan)
+library(ggtext)
+library(cowplot)
+library(RColorBrewer)
+library(microbiome)
+library(lme4)
+library(lmerTest)
+library(decontam)
+library(ampvis2)
+library(glue)
+library(lubridate)
+library(DECIPHER)
+library(ensembleTax)
+
+```
+
+```{r project organization, message=F, echo=F, eval=T, warning=F, include=F, cache=T}
+
+# project name
+proj = "OBER_proj3_Q15250_Mn_oxidation"
+
+# create directories
+if(!dir.exists("figures")){dir.create("figures")}
+if(!dir.exists("output_data")){dir.create("output_data")} 
+if(!dir.exists("scripts")){dir.create("scripts")} 
+if(!dir.exists("scripts/QIIME2")){dir.create("scripts/QIIME2")} 
+```
+
+### Data import
+All input data have been created with QIIME2 and are imported in {r session_info()$platform$version}. QIIME2 scripts and parameter settings are found in separate bash files that can be found in this [Github repository](https://github.com/pietervanveelen/OBER_proj2_BODAC_seasonality).<br>
+
+```{r import data, message=F, echo=T, eval=T, warning=T, include=F, cache=F}
+
+#creating phyloseq objects with 
+physeq = qza_to_phyloseq(
+  features = "input_data/OBER_16S_515F926R_Q15250_20220803_table.qza",
+  tree = "input_data/OBER_16S_515F926R_Q15250_20220803_rooted-tree.qza",
+  taxonomy = "input_data/OBER_16S_515F926R_Q15250_20220803_taxonomy_NB_classifier_SILVA_132_99_16S_515F-926R_QIIME2-2019.10.qza",
+    metadata = "input_data/OBER_16S_515F926R_Q15250_20220803@metadata_formatted.txt")
+
+write_rds(physeq, "output_data/physeq.rds")
+
+```
+
+
+### Cleaning data set
+The following quality control steps are subsequently performed to clean the data: 1) tree resolving using ape package; 2) cleaning up the metadata; 3) replacing taxonomic strings that are empty, NA, metagenome, ambiguous taxa; 4) split blanks from samples; 
+
+```{r clean phylogeny, message=F, echo=F, eval=T, warning=T, include=F, cache=F}
+### resolve phylogenetic tree ###
+
+# evaluate tree topology
+is.binary(phy_tree(physeq)) # if FALSE --> polychotomy present (node has more than 2 tips)
+#TRUE
+
+# if FALSE:
+# resolve polychotomous nodes
+phy_tree_resolved <- multi2di(phy_tree(physeq))
+is.binary(phy_tree_resolved)
+# create new phy_tree
+tree2 <- phy_tree_resolved
+
+# subset_taxa(phy_tree_resolved, Kingdom ==  "Bacteria")
+
+# merge new phy_tree object with sample_data and otu_table into new phyloseq object
+psdata_OBER <- merge_phyloseq(otu_table(physeq), sample_data(physeq), tax_table(physeq), tree2)
+```
+
+```{r clean taxanomy naming, message=F, echo=F, eval=T, warning=F, include=F, cache=F}
+
+## clean taxonomy tags with no information
+# specify NA taxon name tags to last known taxon names
+# REDO
+source("scripts/tax_clean.r")
+tax_clean(psdata_OBER)
+
+```
+
