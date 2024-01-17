@@ -1,0 +1,38 @@
+Kingdom,Phylum,OBER.Mn.JE1,OBER.Mn.JE2,OBER.Mn.JE3,OBER.Mn.JE4,OBER.Mn.JO1,OBER.Mn.JO2,OBER.Mn.SE1,OBER.Mn.SE2,OBER.Mn.SE5,OBER.Mn.SE6,OBER.Mn.SO1
+d__Bacteria,Proteobacteria,58.54,59.52,59.94,60.64,36.09,33.99,60.13,51.85,56.58,56.24,35.6
+d__Bacteria,Bacteroidota,10.74,11.14,5.89,7.6,31.13,33.64,6.84,5.16,5.66,5.81,26.29
+d__Bacteria,Planctomycetota,9.86,8.32,11.21,9.88,9,8.97,10.82,15.08,12.54,10.97,11.95
+d__Bacteria,Acidobacteriota,6.7,6.72,6.28,6.73,8.09,8.22,7.05,9.25,9.5,8.24,10.85
+d__Bacteria,Actinobacteriota,5,4.95,6.45,3.15,0.8,0.69,2.8,7.26,6.44,6.25,1.44
+d__Bacteria,Nitrospirota,1.59,1.3,1.31,1.44,5.91,5.34,3.42,2.68,1.57,1.57,4.81
+d__Bacteria,Chloroflexi,1.59,1.44,1.64,1.49,1.11,1.07,1.99,2.33,2.51,2.3,2.43
+d__Bacteria,Firmicutes,0.73,1,0.81,2.93,0.9,0.69,0.89,1,0.88,3.85,1.5
+d__Bacteria,Verrucomicrobiota,0.84,0.64,1.04,0.88,2.41,2.51,1.67,1.13,0.83,0.96,0.92
+d__Bacteria,Patescibacteria,1.4,2.35,1.62,1.28,0.07,0.14,0.53,0.07,0.07,0.36,0.07
+d__Bacteria,Bdellovibrionota,0.64,0.47,0.7,0.63,1.09,0.96,0.28,0.24,0.26,0.23,0.2
+d__Bacteria,Cyanobacteria,0.13,0.12,0.38,0.49,0.88,0.89,0.61,0.8,0.31,0.26,0.37
+d__Bacteria,Myxococcota,0.25,0.29,0.46,0.56,0.35,0.32,0.65,0.43,0.51,0.81,0.4
+d__Bacteria,Desulfobacterota,0.34,0.39,0.6,0.44,0.14,0.1,0.54,0.92,0.68,0.6,0.11
+d__Bacteria,Armatimonadota,0.14,0.18,0.25,0.24,0.81,0.79,0.22,0.11,0.34,0.3,1.28
+d__Bacteria,Phylum of d__Bacteria,0.49,0.3,0.2,0.35,0.53,0.92,0.12,0.02,0.05,0.1,0.06
+d__Bacteria,Gemmatimonadota,0.14,0.16,0.18,0.19,0.24,0.29,0.37,0.55,0.26,0.26,0.1
+d__Bacteria,RCP2-54,0.14,0.15,0.15,0.15,0.1,0.09,0.19,0.18,0.24,0.17,0.1
+d__Bacteria,Dependentiae,0.06,0.06,0.18,0.08,0.01,0.02,0.08,0.22,0.08,0.09,0.73
+d__Bacteria,NB1-j,0.12,0.14,0.12,0.14,0.07,0.07,0.14,0.12,0.22,0.19,0.12
+d__Bacteria,WPS-2,0.09,0.1,0.14,0.17,0.04,0.07,0.12,0.03,0.06,0.04,0.31
+d__Bacteria,Elusimicrobiota,0.25,0.1,0.16,0.25,0.07,0.05,0.11,0.09,0.02,0.04,0.04
+d__Bacteria,Latescibacterota,0.05,0.04,0.05,0.08,0.01,0.04,0.19,0.18,0.11,0.12,0.04
+d__Bacteria,MBNT15,0.05,0.04,0.08,0.06,0.1,0.1,0.02,0.14,0.05,0.06,0.02
+d__Bacteria,Hydrogenedentes,0.04,0.03,0.03,0.04,0,0.01,0.07,0.04,0.06,0.03,0
+d__Archaea,Crenarchaeota,0.04,0.01,0.04,0.02,0,0,0.02,0.06,0.06,0.04,0.01
+d__Eukaryota,Phylum of d__Eukaryota,0,0,0,0.01,0,0,0.03,0.04,0.03,0.02,0.17
+d__Bacteria,Sumerlaeota,0.03,0.03,0.04,0.05,0.02,0,0.05,0.01,0.02,0.03,0
+d__Bacteria,Zixibacteria,0.01,0.01,0.02,0.02,0,0,0.02,0.02,0.04,0.02,0
+Unassigned,Phylum of Unassigned,0,0,0,0,0,0,0,0,0,0,0.09
+d__Bacteria,Spirochaetota,0,0,0,0,0.03,0.02,0,0,0,0,0
+d__Bacteria,SAR324_clade(Marine_group_B),0,0.01,0,0,0,0,0.01,0,0.02,0.01,0
+d__Bacteria,PAUC34f,0.01,0,0.01,0.01,0,0,0.01,0,0.01,0,0
+d__Bacteria,WS2,0.01,0,0,0.01,0,0,0,0,0.01,0,0
+d__Eukaryota,Cercozoa,0,0,0,0,0,0,0,0,0,0,0.02
+d__Archaea,Nanoarchaeota,0,0,0,0,0,0,0.01,0,0,0,0
+d__Bacteria,Dadabacteria,0,0,0.01,0,0,0,0,0,0,0,0

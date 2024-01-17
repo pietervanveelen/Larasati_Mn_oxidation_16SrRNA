@@ -1,0 +1,955 @@
+Kingdom,Phylum,Class,Order,Family,Genus,Sample_name,OBER.Mn.JE1,OBER.Mn.JE2,OBER.Mn.JE3,OBER.Mn.JE4,OBER.Mn.JO1,OBER.Mn.JO2,OBER.Mn.SE1,OBER.Mn.SE2,OBER.Mn.SE5,OBER.Mn.SE6,OBER.Mn.SO1
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Terrimonas,Jan_IB,0,0,0,0,10.63,11.81,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Terrimonas,Jan_B1,9.27,9.79,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Genus of Comamonadaceae,Jan_B1,9.14,9.18,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Genus of Comamonadaceae,Sept_B2,0,0,0,0,0,0,0,0,9.17,8.51,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Jan_B2,0,0,8.07,8.84,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Jan_B1,8.26,8.54,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Genus of Comamonadaceae,Sept_B1,0,0,0,0,0,0,9.18,6.02,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Genus of Comamonadaceae,Jan_B2,0,0,6.97,7.62,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,Jan_IB,0,0,0,0,7.05,7.19,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,Jan_B2,0,0,6.57,5.96,0,0,0,0,0,0,0
+d__Bacteria,Nitrospirota,Nitrospiria,Nitrospirales,Nitrospiraceae,Nitrospira,Jan_IB,0,0,0,0,6.3,5.72,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Nitrosomonas,Jan_IB,0,0,0,0,5.3,5.47,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,Jan_IB,0,0,0,0,4.6,5.12,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,Sept_B2,0,0,0,0,0,0,0,0,4.78,4.64,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,Jan_B1,4.58,4.79,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Terrimonas,Jan_B2,0,0,4.26,4.89,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Hydrogenophaga,Sept_B2,0,0,0,0,0,0,0,0,4.92,4.21,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhizobacter,Sept_B2,0,0,0,0,0,0,0,0,4.55,4.01,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,Sept_B1,0,0,0,0,0,0,3.97,4.45,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Genus of Saprospiraceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,8.33
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,A0839,A0839,Jan_B2,0,0,4.86,3.34,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Ellin6067,Sept_B1,0,0,0,0,0,0,3.78,4.41,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Nocardiaceae,Rhodococcus,Sept_B2,0,0,0,0,0,0,0,0,4.33,3.7,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,A0839,A0839,Jan_B1,4.01,3.98,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Salinisphaerales,Solimonadaceae,Nevskia,Jan_B1,4.22,3.64,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Ellin6067,Jan_B2,0,0,3.43,4.21,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Hydrogenophaga,Sept_B1,0,0,0,0,0,0,4.71,2.9,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Ellin6067,Jan_B1,3.66,3.51,0,0,0,0,0,0,0,0,0
+d__Bacteria,Nitrospirota,Nitrospiria,Nitrospirales,Nitrospiraceae,Nitrospira,Sept_B1,0,0,0,0,0,0,3.68,2.87,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Stenotrophobacter,Jan_IB,0,0,0,0,3.07,3.24,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pir4_lineage,Jan_B2,0,0,3.6,2.64,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Terrimonas,Sept_B2,0,0,0,0,0,0,0,0,3.09,2.97,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,A0839,A0839,Sept_B1,0,0,0,0,0,0,3.44,2.58,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pir4_lineage,Sept_B1,0,0,0,0,0,0,2.06,3.61,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Ellin6067,Sept_B2,0,0,0,0,0,0,0,0,2.81,2.82,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pir4_lineage,Jan_B1,2.99,2.51,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Genus of Saprospiraceae,Jan_IB,0,0,0,0,2.58,2.75,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Terrimonas,Sept_IB,0,0,0,0,0,0,0,0,0,0,5.27
+d__Bacteria,Nitrospirota,Nitrospiria,Nitrospirales,Nitrospiraceae,Nitrospira,Sept_IB,0,0,0,0,0,0,0,0,0,0,5.18
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Nocardiaceae,Rhodococcus,Sept_B1,0,0,0,0,0,0,0.89,4.26,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Family of Planctomycetales,Genus of Planctomycetales,Sept_B2,0,0,0,0,0,0,0,0,2.72,2.25,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Terrimonas,Sept_B1,0,0,0,0,0,0,2.77,2.07,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Genus of Gemmataceae,Sept_B1,0,0,0,0,0,0,1.73,2.97,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,Sept_IB,0,0,0,0,0,0,0,0,0,0,4.7
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pir4_lineage,Sept_B2,0,0,0,0,0,0,0,0,2.38,2.23,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,A0839,A0839,Sept_B2,0,0,0,0,0,0,0,0,2.19,2.37,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Family of Vicinamibacterales,Genus of Vicinamibacterales,Sept_B1,0,0,0,0,0,0,1.59,2.83,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Family of Planctomycetales,Genus of Planctomycetales,Sept_B1,0,0,0,0,0,0,2.19,2.22,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Genus of Chitinophagaceae,Jan_IB,0,0,0,0,2.03,2.33,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Sept_B1,0,0,0,0,0,0,2.81,1.46,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhizobacter,Jan_B2,0,0,2.6,1.61,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Nocardiaceae,Rhodococcus,Jan_B2,0,0,3.73,0.44,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Amb-16S-1323,Amb-16S-1323,Jan_B1,2.06,2.07,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Stenotrophobacter,Sept_B2,0,0,0,0,0,0,0,0,2.26,1.81,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Family of Vicinamibacterales,Genus of Vicinamibacterales,Sept_B2,0,0,0,0,0,0,0,0,2.02,1.89,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Amb-16S-1323,Amb-16S-1323,Sept_B1,0,0,0,0,0,0,1.83,2.06,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Amb-16S-1323,Amb-16S-1323,Jan_B2,0,0,1.86,1.99,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Genus of Pirellulaceae,Jan_B2,0,0,2.04,1.77,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Genus of Gemmataceae,Sept_B2,0,0,0,0,0,0,0,0,1.99,1.76,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Family of Planctomycetales,Genus of Planctomycetales,Jan_IB,0,0,0,0,1.84,1.9,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Sept_B2,0,0,0,0,0,0,0,0,1.79,1.93,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhizobacter,Sept_B1,0,0,0,0,0,0,2.27,1.44,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Microscillaceae,Genus of Microscillaceae,Sept_B1,0,0,0,0,0,0,2.26,1.41,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Family of Vicinamibacterales,Genus of Vicinamibacterales,Jan_B1,1.81,1.85,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Pedomicrobium,Jan_B2,0,0,1.84,1.68,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,SWB02,Sept_B1,0,0,0,0,0,0,1.68,1.82,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Stenotrophobacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,3.49
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Genus of Pirellulaceae,Jan_B1,1.96,1.46,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Stenotrophobacter,Jan_B1,1.77,1.62,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Family of Vicinamibacterales,Genus of Vicinamibacterales,Jan_IB,0,0,0,0,1.74,1.62,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Genus of Gemmataceae,Jan_B2,0,0,1.76,1.6,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Nitrosomonas,Sept_IB,0,0,0,0,0,0,0,0,0,0,3.34
+d__Bacteria,Nitrospirota,Nitrospiria,Nitrospirales,Nitrospiraceae,Nitrospira,Sept_B2,0,0,0,0,0,0,0,0,1.67,1.67,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Genus of Comamonadaceae,Jan_IB,0,0,0,0,1.76,1.52,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Genus of Gemmataceae,Jan_B1,1.88,1.39,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Genus of Xanthobacteraceae,Jan_B1,1.64,1.62,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Genus of Oxalobacteraceae,Sept_B1,0,0,0,0,0,0,2.03,1.22,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Family of Vicinamibacterales,Genus of Vicinamibacterales,Jan_B2,0,0,1.55,1.68,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Stenotrophobacter,Sept_B1,0,0,0,0,0,0,1.55,1.54,0,0,0
+d__Bacteria,Nitrospirota,Nitrospiria,Nitrospirales,Nitrospiraceae,Nitrospira,Jan_B1,1.7,1.38,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Genus of Xanthobacteraceae,Jan_B2,0,0,1.54,1.51,0,0,0,0,0,0,0
+d__Bacteria,Nitrospirota,Nitrospiria,Nitrospirales,Nitrospiraceae,Nitrospira,Jan_B2,0,0,1.42,1.55,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Pedomicrobium,Jan_B1,1.39,1.55,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Stenotrophobacter,Jan_B2,0,0,1.34,1.58,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Nocardiaceae,Rhodococcus,Jan_B1,1.38,1.53,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Genus of Pirellulaceae,Sept_B1,0,0,0,0,0,0,0.99,1.87,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Genus of Blastocatellaceae,Sept_B2,0,0,0,0,0,0,0,0,1.6,1.23,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pir4_lineage,Jan_IB,0,0,0,0,1.47,1.36,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Reyranella,Jan_IB,0,0,0,0,1.49,1.31,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,SWB02,Jan_B2,0,0,1.26,1.44,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,SWB02,Sept_B2,0,0,0,0,0,0,0,0,1.33,1.3,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Pedomicrobium,Sept_B2,0,0,0,0,0,0,0,0,1.31,1.29,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Genus of Oxalobacteraceae,Sept_B2,0,0,0,0,0,0,0,0,1.36,1.2,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Genus of Pirellulaceae,Sept_B2,0,0,0,0,0,0,0,0,1.35,1.19,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Candidatus_Accumulibacter,Sept_B1,0,0,0,0,0,0,1.58,0.96,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula,Jan_IB,0,0,0,0,1.26,1.28,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,Sept_IB,0,0,0,0,0,0,0,0,0,0,2.54
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Amb-16S-1323,Amb-16S-1323,Sept_B2,0,0,0,0,0,0,0,0,1.28,1.26,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Gemmata,Sept_B1,0,0,0,0,0,0,0.96,1.53,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,Genus of Rubinisphaeraceae,Jan_IB,0,0,0,0,1.22,1.26,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudolabrys,Jan_B2,0,0,1.04,1.44,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingorhabdus,Jan_IB,0,0,0,0,1.26,1.19,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Genus of Gemmataceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,2.41
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Family of Planctomycetales,Genus of Planctomycetales,Jan_B2,0,0,1.13,1.26,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,NS9_marine_group,NS9_marine_group,Jan_IB,0,0,0,0,1.16,1.19,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,A0839,A0839,Jan_IB,0,0,0,0,1.23,1.11,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Reyranella,Sept_B1,0,0,0,0,0,0,0.81,1.5,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,Sept_IB,0,0,0,0,0,0,0,0,0,0,2.31
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Genus of Sphingomonadaceae,Jan_IB,0,0,0,0,1.17,1.13,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Genus of Xanthobacteraceae,Sept_B1,0,0,0,0,0,0,1.08,1.2,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Microscillaceae,Genus of Microscillaceae,Jan_IB,0,0,0,0,1.11,1.16,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,SWB02,Jan_IB,0,0,0,0,1.21,1.06,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Family of Vicinamibacterales,Genus of Vicinamibacterales,Sept_IB,0,0,0,0,0,0,0,0,0,0,2.25
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Afipia,Sept_B1,0,0,0,0,0,0,1.03,1.17,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Family of Planctomycetales,Genus of Planctomycetales,Sept_IB,0,0,0,0,0,0,0,0,0,0,2.2
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Genus of Rhizobiales_Incertae_Sedis,Sept_B2,0,0,0,0,0,0,0,0,1.14,1.06,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Genus of Comamonadaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,2.18
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudolabrys,Jan_B1,1.07,1.11,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,SWB02,Jan_B1,1.03,1.15,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,Jan_IB,0,0,0,0,1.15,1.03,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Genus of Sphingomonadaceae,Sept_B1,0,0,0,0,0,0,0.94,1.23,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Planctopirus,Sept_B1,0,0,0,0,0,0,0.78,1.37,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Hoeflea,Sept_B2,0,0,0,0,0,0,0,0,1.05,1.09,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Genus of Rhizobiales_Incertae_Sedis,Jan_B1,1.08,1.06,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Genus of Rhizobiales_Incertae_Sedis,Jan_B2,0,0,1.09,1.03,0,0,0,0,0,0,0
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Sept_B2,0,0,0,0,0,0,0,0,0.4,1.71,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,env.OPS_17,env.OPS_17,Jan_IB,0,0,0,0,1.04,1.06,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Genus of Blastocatellaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,2.1
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Genus of Gemmataceae,Jan_IB,0,0,0,0,1.02,1.08,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,Sept_IB,0,0,0,0,0,0,0,0,0,0,2.09
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,MND1,Jan_B2,0,0,1.11,0.96,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,Hirschia,Jan_IB,0,0,0,0,1.06,0.98,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,Jan_IB,0,0,0,0,1,1.02,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Luteimonas,Jan_IB,0,0,0,0,0.99,1.03,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Genus of Blastocatellaceae,Jan_B2,0,0,0.93,1.07,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Pedomicrobium,Sept_B1,0,0,0,0,0,0,1.04,0.95,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Undibacterium,Jan_IB,0,0,0,0,1.02,0.97,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhizobacter,Jan_B1,0.97,1.01,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Gemmata,Sept_B2,0,0,0,0,0,0,0,0,1.05,0.92,0
+d__Bacteria,Firmicutes,Bacilli,Brevibacillales,Brevibacillaceae,Brevibacillus,Sept_B2,0,0,0,0,0,0,0,0,0.3,1.65,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Candidatus_Nitrotoga,Jan_IB,0,0,0,0,1,0.95,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Family of Planctomycetales,Genus of Planctomycetales,Jan_B1,0.98,0.95,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Genus of Xanthobacteraceae,Sept_B2,0,0,0,0,0,0,0,0,0.84,1.08,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Vicinamibacteraceae,Vicinamibacteraceae,Sept_B1,0,0,0,0,0,0,0.74,1.18,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Ellin6067,Jan_IB,0,0,0,0,1.02,0.89,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Genus of Rhizobiales_Incertae_Sedis,Sept_B1,0,0,0,0,0,0,1.04,0.85,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,Jan_IB,0,0,0,0,1.02,0.87,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Parvularculaceae,Amphiplicatus,Sept_B2,0,0,0,0,0,0,0,0,0.86,1,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodobacter,Jan_B2,0,0,1.02,0.82,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Salinisphaerales,Solimonadaceae,Nevskia,Jan_B2,0,0,1.12,0.71,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Anaerolineae,Caldilineales,Caldilineaceae,Genus of Caldilineaceae,Sept_B2,0,0,0,0,0,0,0,0,0.97,0.86,0
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Jan_B1,0.45,1.38,0,0,0,0,0,0,0,0,0
+d__Bacteria,Cyanobacteria,Vampirivibrionia,Obscuribacterales,Obscuribacteraceae,Obscuribacteraceae,Jan_IB,0,0,0,0,0.91,0.89,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Genus of Oxalobacteraceae,Jan_IB,0,0,0,0,0.89,0.9,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Parvularculaceae,Amphiplicatus,Sept_B1,0,0,0,0,0,0,0.6,1.18,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Sulfuritalea,Sept_B1,0,0,0,0,0,0,0.96,0.82,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.77
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Genus of Blastocatellaceae,Jan_B1,0.91,0.86,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodobacter,Jan_B1,0.85,0.91,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Planctopirus,Sept_B2,0,0,0,0,0,0,0,0,0.94,0.8,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,Jan_B2,0,0,0.67,1.07,0,0,0,0,0,0,0
+d__Bacteria,Bdellovibrionota,Bdellovibrionia,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,Jan_IB,0,0,0,0,0.92,0.8,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Acidobacteriae,Bryobacterales,Bryobacteraceae,Bryobacter,Jan_IB,0,0,0,0,0.8,0.91,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Reyranella,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.7
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Genus of Blastocatellaceae,Sept_B1,0,0,0,0,0,0,0.81,0.88,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,Jan_IB,0,0,0,0,0.79,0.89,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudorhodoplanes,Sept_B1,0,0,0,0,0,0,0.54,1.14,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Planctopirus,Jan_B2,0,0,0.95,0.73,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Genus of Sphingomonadaceae,Sept_B2,0,0,0,0,0,0,0,0,0.88,0.79,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Sept_B1,0,0,0,0,0,0,0.56,1.06,0,0,0
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Jan_B2,0,0,0.38,1.25,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,Jan_B1,0.83,0.75,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Candidatus_Accumulibacter,Sept_B2,0,0,0,0,0,0,0,0,0.92,0.65,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Family of Gaiellales,Genus of Gaiellales,Jan_B1,0.74,0.81,0,0,0,0,0,0,0,0,0
+d__Bacteria,Phylum of d__Bacteria,Class of d__Bacteria,Order of d__Bacteria,Family of d__Bacteria,Genus of d__Bacteria,Jan_IB,0,0,0,0,0.57,0.98,0,0,0,0,0
+d__Bacteria,Desulfobacterota,Class of Desulfobacterota,Order of Desulfobacterota,Family of Desulfobacterota,Genus of Desulfobacterota,Sept_B1,0,0,0,0,0,0,0.57,0.99,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Afipia,Sept_B2,0,0,0,0,0,0,0,0,0.87,0.66,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,NS11-12_marine_group,NS11-12_marine_group,Jan_IB,0,0,0,0,0.74,0.77,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudorhodoplanes,Jan_B2,0,0,0.72,0.79,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Order of Alphaproteobacteria,Family of Alphaproteobacteria,Genus of Alphaproteobacteria,Jan_B2,0,0,0.81,0.69,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula,Jan_B2,0,0,0.86,0.63,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Acidobacteriae,Bryobacterales,Bryobacteraceae,Bryobacter,Sept_B1,0,0,0,0,0,0,0.45,1.03,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Lacunisphaera,Sept_B1,0,0,0,0,0,0,0.87,0.59,0,0,0
+d__Bacteria,Acidobacteriota,Acidobacteriae,Bryobacterales,Bryobacteraceae,Bryobacter,Jan_B2,0,0,0.76,0.69,0,0,0,0,0,0,0
+d__Bacteria,Firmicutes,Bacilli,Brevibacillales,Brevibacillaceae,Brevibacillus,Jan_B2,0,0,0.28,1.16,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.43
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Vicinamibacteraceae,Vicinamibacteraceae,Sept_B2,0,0,0,0,0,0,0,0,0.71,0.72,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Genus of Blastocatellaceae,Jan_IB,0,0,0,0,0.71,0.71,0,0,0,0,0
+d__Bacteria,Chloroflexi,Chloroflexia,Thermomicrobiales,JG30-KF-CM45,JG30-KF-CM45,Sept_B1,0,0,0,0,0,0,0.45,0.97,0,0,0
+d__Bacteria,Cyanobacteria,Vampirivibrionia,Obscuribacterales,Obscuribacteraceae,Obscuribacteraceae,Sept_B1,0,0,0,0,0,0,0.62,0.79,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Genus of Gallionellaceae,Jan_IB,0,0,0,0,0.7,0.7,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Acidobacteriae,Bryobacterales,Bryobacteraceae,Bryobacter,Jan_B1,0.72,0.68,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,SH-PL14,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.38
+d__Bacteria,Planctomycetota,OM190,OM190,OM190,OM190,Sept_B2,0,0,0,0,0,0,0,0,0.74,0.63,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,Sept_B1,0,0,0,0,0,0,0.64,0.73,0,0,0
+d__Bacteria,Desulfobacterota,Class of Desulfobacterota,Order of Desulfobacterota,Family of Desulfobacterota,Genus of Desulfobacterota,Sept_B2,0,0,0,0,0,0,0,0,0.73,0.64,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Order of Alphaproteobacteria,Family of Alphaproteobacteria,Genus of Alphaproteobacteria,Jan_B1,0.67,0.7,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,Jan_B2,0,0,0.88,0.49,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Vicinamibacteraceae,Vicinamibacteraceae,Jan_B1,0.61,0.75,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula,Sept_B2,0,0,0,0,0,0,0,0,0.78,0.57,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,Jan_B1,0.62,0.72,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pir4_lineage,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.34
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Reyranella,Sept_B2,0,0,0,0,0,0,0,0,0.71,0.63,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodobacter,Sept_B2,0,0,0,0,0,0,0,0,0.64,0.7,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,Genus of Sphingobacteriaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.32
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Mesorhizobium,Jan_B2,0,0,0.72,0.59,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Planctopirus,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.31
+d__Bacteria,Armatimonadota,Fimbriimonadia,Fimbriimonadales,Fimbriimonadaceae,Fimbriimonadaceae,Jan_IB,0,0,0,0,0.66,0.64,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula,Jan_B1,0.7,0.59,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Genus of Chitinophagaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.29
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Family of Gaiellales,Genus of Gaiellales,Jan_B2,0,0,0.67,0.62,0,0,0,0,0,0,0
+d__Bacteria,Bdellovibrionota,Bdellovibrionia,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,Jan_B2,0,0,0.67,0.61,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,OM190,OM190,OM190,OM190,Sept_B1,0,0,0,0,0,0,0.85,0.43,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Pedomicrobium,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.28
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Family of Gaiellales,Genus of Gaiellales,Sept_B1,0,0,0,0,0,0,0.46,0.8,0,0,0
+d__Bacteria,Acidobacteriota,Acidobacteriae,Bryobacterales,Bryobacteraceae,Bryobacter,Sept_B2,0,0,0,0,0,0,0,0,0.62,0.64,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudorhodoplanes,Jan_B1,0.64,0.61,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Luteimonas,Jan_B1,0.58,0.67,0,0,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,DEV114,Jan_IB,0,0,0,0,0.62,0.63,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Afipia,Jan_B1,0.57,0.66,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Vicinamibacteraceae,Vicinamibacteraceae,Jan_B2,0,0,0.6,0.63,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Microscillaceae,Genus of Microscillaceae,Sept_B2,0,0,0,0,0,0,0,0,0.6,0.62,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Alcaligenaceae,Bordetella,Sept_B2,0,0,0,0,0,0,0,0,0.24,0.98,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Sept_B2,0,0,0,0,0,0,0,0,0.6,0.61,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Order of Alphaproteobacteria,Family of Alphaproteobacteria,Genus of Alphaproteobacteria,Sept_B1,0,0,0,0,0,0,0.49,0.7,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Genus of Reyranellaceae,Jan_B2,0,0,0.7,0.5,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudorhodoplanes,Sept_B2,0,0,0,0,0,0,0,0,0.62,0.56,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Acidibacter,Jan_IB,0,0,0,0,0.63,0.54,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Genus of Oxalobacteraceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.17
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Afipia,Jan_B2,0,0,0.56,0.6,0,0,0,0,0,0,0
+d__Bacteria,Armatimonadota,Fimbriimonadia,Fimbriimonadales,Fimbriimonadaceae,Fimbriimonadaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.15
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Luteimonas,Sept_B1,0,0,0,0,0,0,0.53,0.61,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Genus of Verrucomicrobiaceae,Jan_IB,0,0,0,0,0.61,0.53,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Mesorhizobium,Jan_B1,0.59,0.54,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Genus of Sphingomonadaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.12
+d__Bacteria,Bdellovibrionota,Bdellovibrionia,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,Jan_B1,0.65,0.47,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula,Sept_B1,0,0,0,0,0,0,0.5,0.62,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Luteimonas,Sept_B2,0,0,0,0,0,0,0,0,0.55,0.56,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,Genus of Pedosphaeraceae,Jan_IB,0,0,0,0,0.59,0.52,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Devosiaceae,Devosia,Jan_B2,0,0,0.6,0.5,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Vicinamibacteraceae,Vicinamibacteraceae,Jan_IB,0,0,0,0,0.58,0.5,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Sulfuritalea,Sept_B2,0,0,0,0,0,0,0,0,0.54,0.54,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia-Caballeronia-Paraburkholderia,Sept_B2,0,0,0,0,0,0,0,0,0.21,0.87,0
+d__Bacteria,Chloroflexi,Anaerolineae,SBR1031,A4b,A4b,Sept_B1,0,0,0,0,0,0,0.44,0.63,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Luteimonas,Jan_B2,0,0,0.46,0.6,0,0,0,0,0,0,0
+d__Bacteria,Desulfobacterota,Class of Desulfobacterota,Order of Desulfobacterota,Family of Desulfobacterota,Genus of Desulfobacterota,Jan_B2,0,0,0.61,0.45,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,AKYH767,AKYH767,Jan_IB,0,0,0,0,0.52,0.54,0,0,0,0,0
+d__Bacteria,Planctomycetota,BD7-11,BD7-11,BD7-11,BD7-11,Jan_IB,0,0,0,0,0.52,0.53,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Pedomicrobium,Jan_IB,0,0,0,0,0.55,0.5,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Chryseobacterium,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.05
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,Sept_B2,0,0,0,0,0,0,0,0,0.55,0.49,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Aminobacter,Jan_B2,0,0,0.51,0.52,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Chloroflexia,Thermomicrobiales,JG30-KF-CM45,JG30-KF-CM45,Jan_IB,0,0,0,0,0.5,0.53,0,0,0,0,0
+d__Bacteria,Chloroflexi,Anaerolineae,SBR1031,A4b,A4b,Sept_B2,0,0,0,0,0,0,0,0,0.57,0.46,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Planctopirus,Jan_B1,0.53,0.49,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Genus of Xanthomonadaceae,Jan_IB,0,0,0,0,0.53,0.49,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,Sept_IB,0,0,0,0,0,0,0,0,0,0,1.01
+d__Bacteria,Acidobacteriota,Thermoanaerobaculia,Thermoanaerobaculales,Thermoanaerobaculaceae,Subgroup_10,Sept_B1,0,0,0,0,0,0,0.41,0.61,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodobacter,Sept_B1,0,0,0,0,0,0,0.64,0.37,0,0,0
+d__Bacteria,Acidobacteriota,Acidobacteriae,Bryobacterales,Bryobacteraceae,Bryobacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,1
+d__Bacteria,Acidobacteriota,Thermoanaerobaculia,Thermoanaerobaculales,Thermoanaerobaculaceae,Subgroup_10,Sept_B2,0,0,0,0,0,0,0,0,0.54,0.46,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Dechloromonas,Sept_B1,0,0,0,0,0,0,0.76,0.23,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Genus of Rhizobiaceae,Jan_B2,0,0,0.52,0.46,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,PLTA13,PLTA13,PLTA13,Jan_B2,0,0,0.49,0.5,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,MND1,Jan_B1,0.45,0.53,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Nordella,Sept_B2,0,0,0,0,0,0,0,0,0.51,0.46,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Subgroup_17,Subgroup_17,Subgroup_17,Sept_B1,0,0,0,0,0,0,0.48,0.49,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.97
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,SC-I-84,SC-I-84,Sept_B1,0,0,0,0,0,0,0.3,0.65,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Genus of Reyranellaceae,Sept_B1,0,0,0,0,0,0,0.6,0.35,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,DS-100,DS-100,DS-100,Sept_B2,0,0,0,0,0,0,0,0,0.51,0.43,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.94
+d__Bacteria,Acidobacteriota,Blastocatellia,11-24,11-24,11-24,Sept_B2,0,0,0,0,0,0,0,0,0.51,0.43,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Order of Alphaproteobacteria,Family of Alphaproteobacteria,Genus of Alphaproteobacteria,Sept_B2,0,0,0,0,0,0,0,0,0.48,0.45,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,PLTA13,PLTA13,PLTA13,Jan_B1,0.46,0.46,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Jan_IB,0,0,0,0,0.48,0.45,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Genus of Reyranellaceae,Jan_B1,0.44,0.48,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Genus of Rhizobiales_Incertae_Sedis,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.92
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Jan_B1,0.51,0.41,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Genus of Rhizobiaceae,Jan_B1,0.47,0.45,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,PLTA13,PLTA13,PLTA13,Sept_B1,0,0,0,0,0,0,0.43,0.48,0,0,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Family of Gaiellales,Genus of Gaiellales,Sept_B2,0,0,0,0,0,0,0,0,0.4,0.5,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,Sept_B1,0,0,0,0,0,0,0.5,0.4,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,Sept_B2,0,0,0,0,0,0,0,0,0.47,0.42,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Nordella,Jan_B2,0,0,0.5,0.4,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Defluviimonas,Sept_B2,0,0,0,0,0,0,0,0,0.44,0.45,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,Sept_B2,0,0,0,0,0,0,0,0,0.42,0.48,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Aminobacter,Jan_B1,0.4,0.48,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Ramlibacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.87
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Reyranella,Jan_B2,0,0,0.43,0.44,0,0,0,0,0,0,0
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Sept_B1,0,0,0,0,0,0,0.41,0.45,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,DS-100,DS-100,DS-100,Sept_B1,0,0,0,0,0,0,0.46,0.4,0,0,0
+d__Bacteria,Chloroflexi,Anaerolineae,Caldilineales,Caldilineaceae,Genus of Caldilineaceae,Jan_B2,0,0,0.42,0.44,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhodoferax,Jan_IB,0,0,0,0,0.41,0.44,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Genus of Reyranellaceae,Sept_B2,0,0,0,0,0,0,0,0,0.46,0.39,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,env.OPS_17,env.OPS_17,Sept_B2,0,0,0,0,0,0,0,0,0.45,0.41,0
+d__Bacteria,Chloroflexi,Chloroflexia,Thermomicrobiales,JG30-KF-CM45,JG30-KF-CM45,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.85
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Hydrogenophaga,Jan_B2,0,0,0.5,0.35,0,0,0,0,0,0,0
+d__Bacteria,Phylum of d__Bacteria,Class of d__Bacteria,Order of d__Bacteria,Family of d__Bacteria,Genus of d__Bacteria,Jan_B1,0.53,0.32,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Jan_B1,0.43,0.41,0,0,0,0,0,0,0,0,0
+d__Bacteria,Cyanobacteria,Vampirivibrionia,Obscuribacterales,Obscuribacteraceae,Obscuribacteraceae,Jan_B2,0,0,0.38,0.46,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Reyranella,Jan_B1,0.44,0.41,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Acetobacterales,Acetobacteraceae,Genus of Acetobacteraceae,Sept_B1,0,0,0,0,0,0,0.55,0.29,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Devosiaceae,Devosia,Jan_B1,0.41,0.44,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Schlesneria,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.84
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Defluviimonas,Jan_B1,0.41,0.43,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,PLTA13,PLTA13,PLTA13,Sept_B2,0,0,0,0,0,0,0,0,0.43,0.4,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Alcaligenaceae,Bordetella,Jan_B2,0,0,0.21,0.62,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Leptothrix,Sept_B1,0,0,0,0,0,0,0.57,0.25,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,Hirschia,Sept_B1,0,0,0,0,0,0,0.5,0.33,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Hoeflea,Sept_B1,0,0,0,0,0,0,0.52,0.3,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingorhabdus,Sept_B2,0,0,0,0,0,0,0,0,0.46,0.36,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodobacter,Jan_IB,0,0,0,0,0.41,0.4,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,Hirschia,Jan_B1,0.39,0.42,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Genus of Rhizobiales_Incertae_Sedis,Jan_IB,0,0,0,0,0.41,0.39,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,SH-PL14,Jan_IB,0,0,0,0,0.45,0.36,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Defluviimonas,Jan_B2,0,0,0.42,0.37,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Anaerolineae,Caldilineales,Caldilineaceae,Genus of Caldilineaceae,Sept_B1,0,0,0,0,0,0,0.53,0.26,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Planctopirus,Jan_IB,0,0,0,0,0.37,0.42,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Genus of Rhodospirillaceae,Jan_IB,0,0,0,0,0.4,0.39,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingorhabdus,Sept_B1,0,0,0,0,0,0,0.48,0.31,0,0,0
+d__Bacteria,Chloroflexi,Chloroflexia,Thermomicrobiales,JG30-KF-CM45,JG30-KF-CM45,Sept_B2,0,0,0,0,0,0,0,0,0.36,0.43,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Sphaerotilus,Jan_B2,0,0,0.35,0.43,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Schlesneria,Sept_B2,0,0,0,0,0,0,0,0,0.41,0.36,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Nordella,Sept_B1,0,0,0,0,0,0,0.35,0.43,0,0,0
+d__Bacteria,Planctomycetota,OM190,OM190,OM190,OM190,Jan_B2,0,0,0.29,0.48,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Genus of Rhodobacteraceae,Jan_B2,0,0,0.35,0.42,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,Sept_B1,0,0,0,0,0,0,0.41,0.35,0,0,0
+d__Bacteria,Desulfobacterota,Class of Desulfobacterota,Order of Desulfobacterota,Family of Desulfobacterota,Genus of Desulfobacterota,Jan_B1,0.35,0.41,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Edaphobaculum,Jan_IB,0,0,0,0,0.34,0.41,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Jan_B2,0,0,0.41,0.35,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Genus of Pirellulaceae,Jan_IB,0,0,0,0,0.36,0.4,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Genus of Rhodobacteraceae,Jan_B1,0.36,0.4,0,0,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Anaerolineae,Caldilineales,Caldilineaceae,Genus of Caldilineaceae,Jan_B1,0.39,0.36,0,0,0,0,0,0,0,0,0
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Jan_B2,0,0,0.39,0.36,0,0,0,0,0,0,0
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Jan_B1,0.32,0.43,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Nordella,Jan_B1,0.38,0.37,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,Hirschia,Sept_B2,0,0,0,0,0,0,0,0,0.43,0.31,0
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Jan_IB,0,0,0,0,0.42,0.31,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Jan_B2,0,0,0.39,0.35,0,0,0,0,0,0,0
+d__Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Genus of Gemmatimonadaceae,Sept_B1,0,0,0,0,0,0,0.29,0.44,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Genus of Sphingomonadaceae,Jan_B2,0,0,0.33,0.4,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Genus of Rhodocyclaceae,Sept_B1,0,0,0,0,0,0,0.46,0.27,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Blastocatella,Jan_IB,0,0,0,0,0.37,0.36,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Genus of Yersiniaceae,Sept_B2,0,0,0,0,0,0,0,0,0.13,0.59,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Schlesneria,Jan_B2,0,0,0.32,0.4,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Genus of Saprospiraceae,Sept_B1,0,0,0,0,0,0,0.34,0.37,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Subgroup_17,Subgroup_17,Subgroup_17,Sept_B2,0,0,0,0,0,0,0,0,0.4,0.31,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia-Caballeronia-Paraburkholderia,Jan_B2,0,0,0.2,0.51,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudorhodoplanes,Jan_IB,0,0,0,0,0.38,0.33,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Genus of Hyphomicrobiaceae,Jan_B2,0,0,0.39,0.31,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Schlesneria,Sept_B1,0,0,0,0,0,0,0.31,0.39,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Bradyrhizobium,Jan_B2,0,0,0.41,0.29,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Leptothrix,Jan_IB,0,0,0,0,0.38,0.32,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Bradyrhizobium,Sept_B2,0,0,0,0,0,0,0,0,0.33,0.36,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Dechloromonas,Sept_B2,0,0,0,0,0,0,0,0,0.35,0.34,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Bradyrhizobium,Sept_B1,0,0,0,0,0,0,0.3,0.39,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,Sept_B2,0,0,0,0,0,0,0,0,0.35,0.33,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Bradyrhizobium,Jan_B1,0.36,0.32,0,0,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Lacunisphaera,Sept_B2,0,0,0,0,0,0,0,0,0.35,0.32,0
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Sept_B2,0,0,0,0,0,0,0,0,0.11,0.56,0
+d__Bacteria,Acidobacteriota,Blastocatellia,11-24,11-24,11-24,Sept_B1,0,0,0,0,0,0,0.41,0.25,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Microscillaceae,Genus of Microscillaceae,Jan_B2,0,0,0.33,0.34,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Vicinamibacterales,Vicinamibacteraceae,Vicinamibacteraceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.66
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Nitrosomonas,Jan_B1,0.27,0.39,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,Hirschia,Jan_B2,0,0,0.31,0.34,0,0,0,0,0,0,0
+d__Bacteria,Myxococcota,Myxococcia,Myxococcales,Vulgatibacteraceae,Vulgatibacter,Sept_B2,0,0,0,0,0,0,0,0,0.12,0.53,0
+d__Bacteria,Chloroflexi,Anaerolineae,Caldilineales,Caldilineaceae,Genus of Caldilineaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.65
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Lacunisphaera,Jan_B2,0,0,0.26,0.39,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Nitrosomonas,Jan_B2,0,0,0.27,0.38,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,MND1,Sept_B1,0,0,0,0,0,0,0.43,0.22,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Mesorhizobium,Sept_B1,0,0,0,0,0,0,0.25,0.4,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Schlesneria,Jan_B1,0.29,0.36,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Genus of Xanthomonadaceae,Sept_B1,0,0,0,0,0,0,0.4,0.24,0,0,0
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.64
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Phaeodactylibacter,Sept_B2,0,0,0,0,0,0,0,0,0.32,0.32,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Mesorhizobium,Sept_B2,0,0,0,0,0,0,0,0,0.32,0.32,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methyloligellaceae,Genus of Methyloligellaceae,Sept_B1,0,0,0,0,0,0,0.21,0.43,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Lacunisphaera,Jan_B1,0.35,0.29,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Sulfuritalea,Jan_IB,0,0,0,0,0.34,0.3,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Genus of Xanthomonadaceae,Sept_B2,0,0,0,0,0,0,0,0,0.34,0.3,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,Jan_B2,0,0,0.21,0.42,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudorhodoplanes,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.63
+d__Bacteria,Firmicutes,Bacilli,Brevibacillales,Brevibacillaceae,Brevibacillus,Jan_B1,0.26,0.37,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Acidibacter,Sept_B2,0,0,0,0,0,0,0,0,0.3,0.33,0
+d__Bacteria,Chloroflexi,TK10,TK10,TK10,TK10,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.63
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Jan_B1,0.33,0.29,0,0,0,0,0,0,0,0,0
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Jan_B2,0,0,0.27,0.36,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Sulfuritalea,Jan_B2,0,0,0.27,0.35,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Genus of Saprospiraceae,Sept_B2,0,0,0,0,0,0,0,0,0.23,0.4,0
+d__Bacteria,Chloroflexi,Anaerolineae,SBR1031,A4b,A4b,Jan_B1,0.36,0.26,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,NS9_marine_group,NS9_marine_group,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.62
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.61
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,Sept_B2,0,0,0,0,0,0,0,0,0.12,0.49,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Marmoricola,Sept_B2,0,0,0,0,0,0,0,0,0.3,0.31,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,JGI_0001001-H03,Jan_IB,0,0,0,0,0.27,0.32,0,0,0,0,0
+d__Bacteria,Phylum of d__Bacteria,Class of d__Bacteria,Order of d__Bacteria,Family of d__Bacteria,Genus of d__Bacteria,Jan_B2,0,0,0.22,0.38,0,0,0,0,0,0,0
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Jan_B1,0.36,0.23,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,B1-7BS,B1-7BS,Jan_IB,0,0,0,0,0.33,0.26,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,env.OPS_17,env.OPS_17,Jan_B2,0,0,0.19,0.4,0,0,0,0,0,0,0
+d__Bacteria,Firmicutes,Bacilli,Brevibacillales,Brevibacillaceae,Brevibacillus,Jan_IB,0,0,0,0,0.31,0.28,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Sphaerotilus,Jan_B1,0.31,0.28,0,0,0,0,0,0,0,0,0
+d__Bacteria,Cyanobacteria,Vampirivibrionia,Obscuribacterales,Obscuribacteraceae,Obscuribacteraceae,Sept_B2,0,0,0,0,0,0,0,0,0.31,0.27,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Schlesneriaceae,Schlesneria,Jan_IB,0,0,0,0,0.32,0.25,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,MND1,Sept_B2,0,0,0,0,0,0,0,0,0.29,0.28,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Nitrosomonas,Sept_B2,0,0,0,0,0,0,0,0,0.23,0.34,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,Jan_B1,0.29,0.28,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Acidobacteriae,Elev-16S-1166,Elev-16S-1166,Elev-16S-1166,Jan_B1,0.27,0.3,0,0,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Anaerolineae,SBR1031,A4b,A4b,Jan_B2,0,0,0.3,0.27,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,SC-I-84,SC-I-84,Jan_B2,0,0,0.29,0.28,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Genus of Rhizobiaceae,Sept_B2,0,0,0,0,0,0,0,0,0.3,0.27,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Acetobacterales,Acetobacteraceae,Genus of Acetobacteraceae,Jan_IB,0,0,0,0,0.28,0.29,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Acidibacter,Sept_B1,0,0,0,0,0,0,0.27,0.29,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,Sept_B2,0,0,0,0,0,0,0,0,0.27,0.29,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingorhabdus,Jan_B1,0.27,0.29,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,Genus of Rubinisphaeraceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.55
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Order of Alphaproteobacteria,Family of Alphaproteobacteria,Genus of Alphaproteobacteria,Jan_IB,0,0,0,0,0.3,0.25,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Phreatobacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.55
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Jan_IB,0,0,0,0,0.28,0.27,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Acidobacteriae,Elev-16S-1166,Elev-16S-1166,Elev-16S-1166,Jan_IB,0,0,0,0,0.27,0.27,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Phreatobacter,Jan_B2,0,0,0.18,0.36,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,JGI_0001001-H03,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.54
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,B1-7BS,B1-7BS,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.54
+d__Bacteria,Acidobacteriota,Acidobacteriae,Elev-16S-1166,Elev-16S-1166,Elev-16S-1166,Jan_B2,0,0,0.26,0.28,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudolabrys,Sept_B2,0,0,0,0,0,0,0,0,0.27,0.25,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudolabrys,Sept_B1,0,0,0,0,0,0,0.31,0.22,0,0,0
+d__Bacteria,Planctomycetota,OM190,OM190,OM190,OM190,Jan_B1,0.25,0.27,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Family of Rhodospirillales,Genus of Rhodospirillales,Jan_B2,0,0,0.13,0.4,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,B1-7BS,B1-7BS,Sept_B2,0,0,0,0,0,0,0,0,0.26,0.26,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,67-14,67-14,Sept_B1,0,0,0,0,0,0,0.13,0.39,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Candidatus_Nitrotoga,Jan_B2,0,0,0.27,0.25,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,JGI_0001001-H03,Sept_B2,0,0,0,0,0,0,0,0,0.29,0.23,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Genus of Xanthobacteraceae,Jan_IB,0,0,0,0,0.29,0.23,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Rhizorhapis,Jan_IB,0,0,0,0,0.24,0.28,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingorhabdus,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.51
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Genus of Reyranellaceae,Jan_IB,0,0,0,0,0.27,0.23,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,Jan_B2,0,0,0.27,0.24,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingorhabdus,Jan_B2,0,0,0.23,0.27,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Alcaligenaceae,Bordetella,Sept_B1,0,0,0,0,0,0,0.29,0.22,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Genus of Saprospiraceae,Jan_B2,0,0,0.24,0.26,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Frankiales,Sporichthyaceae,Sporichthya,Sept_B2,0,0,0,0,0,0,0,0,0.23,0.27,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Family of Burkholderiales,Genus of Burkholderiales,Jan_B2,0,0,0.26,0.24,0,0,0,0,0,0,0
+d__Bacteria,Armatimonadota,Fimbriimonadia,Fimbriimonadales,Fimbriimonadaceae,Fimbriimonadaceae,Sept_B2,0,0,0,0,0,0,0,0,0.27,0.23,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methyloligellaceae,Genus of Methyloligellaceae,Sept_B2,0,0,0,0,0,0,0,0,0.25,0.25,0
+d__Bacteria,Firmicutes,Bacilli,Brevibacillales,Brevibacillaceae,Brevibacillus,Sept_B1,0,0,0,0,0,0,0.24,0.26,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Gemmata,Jan_B2,0,0,0.2,0.3,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Nitrosomonas,Sept_B1,0,0,0,0,0,0,0.3,0.2,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Genus of Hyphomicrobiaceae,Jan_B1,0.25,0.24,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Defluviimonas,Sept_B1,0,0,0,0,0,0,0.35,0.14,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Leptothrix,Jan_B1,0.27,0.23,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,SH-PL14,Sept_B1,0,0,0,0,0,0,0.23,0.27,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,Jan_IB,0,0,0,0,0.25,0.24,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Thermoanaerobaculia,Thermoanaerobaculales,Thermoanaerobaculaceae,Subgroup_10,Jan_B2,0,0,0.26,0.23,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Leptothrix,Jan_B2,0,0,0.23,0.26,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,Genus of Beijerinckiaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.49
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodobacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.49
+d__Bacteria,Chloroflexi,Anaerolineae,Caldilineales,Caldilineaceae,Genus of Caldilineaceae,Jan_IB,0,0,0,0,0.27,0.21,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,SH-PL14,Sept_B2,0,0,0,0,0,0,0,0,0.25,0.24,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,Sept_B1,0,0,0,0,0,0,0.33,0.15,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Family of Rhizobiales,Genus of Rhizobiales,Sept_B2,0,0,0,0,0,0,0,0,0.29,0.19,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,env.OPS_17,env.OPS_17,Sept_B1,0,0,0,0,0,0,0.32,0.16,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Genus of Sphingomonadaceae,Jan_B1,0.2,0.28,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,Jan_B2,0,0,0.17,0.31,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Gemmata,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.48
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,TRA3-20,TRA3-20,Sept_B1,0,0,0,0,0,0,0.35,0.13,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Aridibacter,Jan_IB,0,0,0,0,0.22,0.26,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Genus of Rhodobacteraceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.48
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,Sept_B1,0,0,0,0,0,0,0.29,0.19,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,JGI_0001001-H03,Jan_B2,0,0,0.21,0.26,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Genus of Hyphomicrobiaceae,Sept_B1,0,0,0,0,0,0,0.25,0.22,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,Jan_B1,0.22,0.25,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Acidibacter,Jan_B2,0,0,0.2,0.27,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Genus of Yersiniaceae,Jan_B2,0,0,0.13,0.33,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,SC-I-84,SC-I-84,Jan_B1,0.25,0.21,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Edaphobaculum,Jan_B1,0.27,0.19,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,SC-I-84,SC-I-84,Sept_B2,0,0,0,0,0,0,0,0,0.22,0.24,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia-Caballeronia-Paraburkholderia,Sept_B1,0,0,0,0,0,0,0.26,0.19,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Defluviimonas,Jan_IB,0,0,0,0,0.22,0.23,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Alcaligenaceae,Bordetella,Jan_B1,0.2,0.24,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,SWB02,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.45
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Genus of Hyphomicrobiaceae,Sept_B2,0,0,0,0,0,0,0,0,0.22,0.23,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Nordella,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.45
+d__Bacteria,Firmicutes,Bacilli,Brevibacillales,Brevibacillaceae,Brevibacillus,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.44
+d__Bacteria,RCP2-54,RCP2-54,RCP2-54,RCP2-54,RCP2-54,Sept_B2,0,0,0,0,0,0,0,0,0.26,0.18,0
+d__Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Microscillaceae,Genus of Microscillaceae,Jan_B1,0.25,0.19,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Jan_B1,0.25,0.19,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,Jan_B2,0,0,0.21,0.22,0,0,0,0,0,0,0
+d__Bacteria,NB1-j,NB1-j,NB1-j,NB1-j,NB1-j,Sept_B2,0,0,0,0,0,0,0,0,0.23,0.2,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,A0839,A0839,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.43
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Sept_B1,0,0,0,0,0,0,0.37,0.06,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,Genus of Rubinisphaeraceae,Jan_B2,0,0,0.23,0.2,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Genus of Rhizobiaceae,Sept_B1,0,0,0,0,0,0,0.27,0.16,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Candidatus_Nitrotoga,Jan_B1,0.2,0.22,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,Sept_B1,0,0,0,0,0,0,0.19,0.24,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,TRA3-20,TRA3-20,Jan_B2,0,0,0.2,0.23,0,0,0,0,0,0,0
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Jan_B2,0,0,0.1,0.32,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Lacunisphaera,Jan_IB,0,0,0,0,0.18,0.25,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Aminobacter,Sept_B2,0,0,0,0,0,0,0,0,0.22,0.2,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Candidatus_Ovatusbacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.42
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Acidibacter,Jan_B1,0.22,0.2,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Thermoanaerobaculia,Thermoanaerobaculales,Thermoanaerobaculaceae,Subgroup_10,Jan_B1,0.21,0.21,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,env.OPS_17,env.OPS_17,Jan_B1,0.24,0.18,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,SH-PL14,Jan_B2,0,0,0.24,0.17,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Family of Burkholderiales,Genus of Burkholderiales,Jan_B1,0.21,0.21,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,Jan_IB,0,0,0,0,0.23,0.19,0,0,0,0,0
+d__Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Genus of Gemmatimonadaceae,Sept_B2,0,0,0,0,0,0,0,0,0.22,0.19,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Sphaerotilus,Sept_B1,0,0,0,0,0,0,0.35,0.06,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,TRA3-20,TRA3-20,Jan_IB,0,0,0,0,0.19,0.22,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Jan_B2,0,0,0.23,0.18,0,0,0,0,0,0,0
+d__Bacteria,RCP2-54,RCP2-54,RCP2-54,RCP2-54,RCP2-54,Sept_B1,0,0,0,0,0,0,0.21,0.19,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,mle1-7,Jan_B2,0,0,0.18,0.22,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Chloroflexia,Thermomicrobiales,JG30-KF-CM45,JG30-KF-CM45,Jan_B1,0.2,0.2,0,0,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Chloroflexia,Thermomicrobiales,JG30-KF-CM45,JG30-KF-CM45,Jan_B2,0,0,0.2,0.2,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methyloligellaceae,Genus of Methyloligellaceae,Jan_IB,0,0,0,0,0.19,0.21,0,0,0,0,0
+d__Bacteria,Cyanobacteria,Vampirivibrionia,Obscuribacterales,Obscuribacteraceae,Obscuribacteraceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.4
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia-Caballeronia-Paraburkholderia,Jan_B1,0.17,0.23,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,BD7-11,BD7-11,BD7-11,BD7-11,Sept_B1,0,0,0,0,0,0,0.21,0.18,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Nordella,Jan_IB,0,0,0,0,0.19,0.21,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,SH-PL14,Jan_B1,0.2,0.19,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bdellovibrionota,Bdellovibrionia,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,Sept_B1,0,0,0,0,0,0,0.22,0.17,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Gemmata,Jan_B1,0.19,0.2,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,DS-100,DS-100,DS-100,Jan_B2,0,0,0.22,0.17,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Genus of Nitrosomonadaceae,Jan_B2,0,0,0.2,0.18,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Acidobacteriae,Elev-16S-1166,Elev-16S-1166,Elev-16S-1166,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.39
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Genus of Rhizobiaceae,Jan_IB,0,0,0,0,0.19,0.19,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Acetobacterales,Acetobacteraceae,Genus of Acetobacteraceae,Sept_B2,0,0,0,0,0,0,0,0,0.2,0.19,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,Genus of Rubinisphaeraceae,Sept_B1,0,0,0,0,0,0,0.25,0.13,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Genus of Microbacteriaceae,Sept_B1,0,0,0,0,0,0,0.08,0.3,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,TRA3-20,TRA3-20,Sept_B2,0,0,0,0,0,0,0,0,0.2,0.18,0
+d__Bacteria,Chloroflexi,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,Jan_B2,0,0,0.23,0.15,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Genus of Verrucomicrobiaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.38
+d__Bacteria,Proteobacteria,Gammaproteobacteria,PLTA13,PLTA13,PLTA13,Jan_IB,0,0,0,0,0.21,0.17,0,0,0,0,0
+d__Bacteria,Chloroflexi,TK10,TK10,TK10,TK10,Sept_B2,0,0,0,0,0,0,0,0,0.19,0.19,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Frankiales,Sporichthyaceae,Sporichthya,Jan_B2,0,0,0.12,0.26,0,0,0,0,0,0,0
+d__Bacteria,Myxococcota,Myxococcia,Myxococcales,Vulgatibacteraceae,Vulgatibacter,Jan_B2,0,0,0.11,0.27,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Genus of Pirellulaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.38
+d__Bacteria,Acidobacteriota,Blastocatellia,DS-100,DS-100,DS-100,Jan_B1,0.19,0.19,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Sept_B2,0,0,0,0,0,0,0,0,0.19,0.19,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Mesorhizobium,Jan_IB,0,0,0,0,0.21,0.16,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,B1-7BS,B1-7BS,Sept_B1,0,0,0,0,0,0,0.2,0.17,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Order of Alphaproteobacteria,Family of Alphaproteobacteria,Genus of Alphaproteobacteria,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.37
+d__Bacteria,Chloroflexi,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,Jan_B1,0.19,0.19,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Family of Rhodospirillales,Genus of Rhodospirillales,Sept_B2,0,0,0,0,0,0,0,0,0.19,0.18,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Marmoricola,Jan_B2,0,0,0.16,0.21,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methyloligellaceae,Genus of Methyloligellaceae,Jan_B1,0.19,0.18,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,Genus of Rubinisphaeraceae,Sept_B2,0,0,0,0,0,0,0,0,0.18,0.19,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Sulfuritalea,Jan_B1,0.17,0.2,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Family of Rhodospirillales,Genus of Rhodospirillales,Sept_B1,0,0,0,0,0,0,0.19,0.17,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Ellin6067,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.36
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,JGI_0001001-H03,Jan_B1,0.18,0.18,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,TRA3-20,TRA3-20,Jan_B1,0.18,0.17,0,0,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,TK10,TK10,TK10,TK10,Sept_B1,0,0,0,0,0,0,0.18,0.17,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Genus of Xanthomonadaceae,Jan_B2,0,0,0.18,0.17,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.35
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Sept_B1,0,0,0,0,0,0,0.15,0.2,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Genus of Microbacteriaceae,Jan_B2,0,0,0.15,0.2,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Galbitalea,Jan_B2,0,0,0.15,0.2,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Genus of Xanthomonadaceae,Jan_B1,0.19,0.16,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Family of Rhizobiales,Genus of Rhizobiales,Sept_B1,0,0,0,0,0,0,0.18,0.16,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Genus of Saprospiraceae,Jan_B1,0.15,0.19,0,0,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Dehalococcoidia,S085,S085,S085,Sept_B2,0,0,0,0,0,0,0,0,0.18,0.16,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Genus of Microbacteriaceae,Jan_B1,0.18,0.16,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Gaiellaceae,Gaiella,Jan_B2,0,0,0.19,0.15,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Acidibacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.34
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Genus of Verrucomicrobiaceae,Jan_B2,0,0,0.2,0.14,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,DS-100,DS-100,DS-100,Jan_IB,0,0,0,0,0.18,0.16,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Alcaligenaceae,Bordetella,Jan_IB,0,0,0,0,0.21,0.12,0,0,0,0,0
+d__Bacteria,WPS-2,WPS-2,WPS-2,WPS-2,WPS-2,Jan_B2,0,0,0.15,0.18,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Aridibacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.33
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Genus of Xanthobacteraceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.33
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Luteimonas,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.33
+d__Bacteria,WPS-2,WPS-2,WPS-2,WPS-2,WPS-2,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.33
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Genus of Rhodocyclaceae,Jan_B1,0.18,0.15,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methyloligellaceae,Genus of Methyloligellaceae,Jan_B2,0,0,0.18,0.15,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Alcaligenaceae,Bordetella,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.33
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Edaphobaculum,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.33
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Hydrogenophaga,Jan_B1,0.16,0.16,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,67-14,67-14,Jan_B1,0.15,0.18,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Genus of Chitinophagaceae,Jan_B1,0.13,0.2,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,JGI_0001001-H03,Sept_B1,0,0,0,0,0,0,0.21,0.12,0,0,0
+d__Bacteria,Chloroflexi,Anaerolineae,SBR1031,A4b,A4b,Jan_IB,0,0,0,0,0.16,0.17,0,0,0,0,0
+d__Bacteria,RCP2-54,RCP2-54,RCP2-54,RCP2-54,RCP2-54,Jan_B2,0,0,0.17,0.16,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Legionellaceae,Legionella,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.32
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Galbitalea,Sept_B2,0,0,0,0,0,0,0,0,0.17,0.15,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,mle1-7,Jan_IB,0,0,0,0,0.16,0.16,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,67-14,67-14,Sept_B2,0,0,0,0,0,0,0,0,0.16,0.16,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Genus of Oxalobacteraceae,Jan_B2,0,0,0.12,0.19,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Phreatobacter,Jan_B1,0.15,0.16,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Salinisphaerales,Solimonadaceae,Nevskia,Sept_B1,0,0,0,0,0,0,0.15,0.16,0,0,0
+d__Bacteria,Chloroflexi,TK10,TK10,TK10,TK10,Jan_B2,0,0,0.17,0.15,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,mle1-7,Jan_B1,0.19,0.13,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Genus of Chitinophagaceae,Jan_B2,0,0,0.12,0.19,0,0,0,0,0,0,0
+d__Bacteria,RCP2-54,RCP2-54,RCP2-54,RCP2-54,RCP2-54,Jan_B1,0.15,0.16,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Genus of Microbacteriaceae,Sept_B2,0,0,0,0,0,0,0,0,0.12,0.19,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Defluviimonas,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.31
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Subgroup_17,Subgroup_17,Subgroup_17,Jan_IB,0,0,0,0,0.15,0.15,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Family of Burkholderiales,Genus of Burkholderiales,Sept_B1,0,0,0,0,0,0,0.18,0.12,0,0,0
+d__Bacteria,Bdellovibrionota,Bdellovibrionia,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,Sept_B2,0,0,0,0,0,0,0,0,0.16,0.15,0
+d__Bacteria,Acidobacteriota,Blastocatellia,11-24,11-24,11-24,Jan_B2,0,0,0.14,0.16,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Chlamydiae,Chlamydiales,Parachlamydiaceae,Neochlamydia,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.31
+d__Bacteria,Chloroflexi,TK10,TK10,TK10,TK10,Jan_B1,0.15,0.16,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Blastocatella,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.3
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Genus of Hyphomicrobiaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.3
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,B1-7BS,B1-7BS,Jan_B1,0.17,0.13,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Gaiellaceae,Gaiella,Jan_B1,0.16,0.14,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Family of Rhodospirillales,Genus of Rhodospirillales,Jan_B1,0.15,0.15,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,OM190,OM190,OM190,OM190,Jan_IB,0,0,0,0,0.16,0.14,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Acidobacteriae,Elev-16S-1166,Elev-16S-1166,Elev-16S-1166,Sept_B2,0,0,0,0,0,0,0,0,0.13,0.16,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia-Caballeronia-Paraburkholderia,Jan_IB,0,0,0,0,0.2,0.1,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,Jan_B2,0,0,0.02,0.27,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Salinisphaerales,Solimonadaceae,Nevskia,Sept_B2,0,0,0,0,0,0,0,0,0.08,0.22,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Phaeodactylibacter,Jan_IB,0,0,0,0,0.15,0.15,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Genus of Verrucomicrobiaceae,Jan_B1,0.14,0.15,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Planctomycetales,Rubinisphaeraceae,Genus of Rubinisphaeraceae,Jan_B1,0.14,0.16,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia-Caballeronia-Paraburkholderia,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.29
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Amb-16S-1323,Amb-16S-1323,Jan_IB,0,0,0,0,0.17,0.13,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Aminobacter,Sept_B1,0,0,0,0,0,0,0.18,0.11,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,Jan_B2,0,0,0.12,0.17,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Chlamydiae,Chlamydiales,Parachlamydiaceae,Neochlamydia,Sept_B1,0,0,0,0,0,0,0.21,0.08,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Family of Burkholderiales,Genus of Burkholderiales,Sept_B2,0,0,0,0,0,0,0,0,0.16,0.13,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,67-14,67-14,Jan_B2,0,0,0.16,0.13,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Genus of Rhodobacteraceae,Jan_IB,0,0,0,0,0.15,0.14,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Order of Gammaproteobacteria,Family of Gammaproteobacteria,Genus of Gammaproteobacteria,Jan_B2,0,0,0.13,0.15,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.29
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Genus of Rhodobacteraceae,Sept_B2,0,0,0,0,0,0,0,0,0.15,0.13,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Sphaerotilus,Sept_B2,0,0,0,0,0,0,0,0,0.14,0.14,0
+d__Bacteria,NB1-j,NB1-j,NB1-j,NB1-j,NB1-j,Jan_B2,0,0,0.13,0.15,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,B1-7BS,B1-7BS,Jan_B2,0,0,0.17,0.11,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Dehalococcoidia,S085,S085,S085,Sept_B1,0,0,0,0,0,0,0.17,0.11,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,mle1-7,Sept_B2,0,0,0,0,0,0,0,0,0.15,0.13,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Mesorhizobium,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.28
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Gaiellaceae,Gaiella,Sept_B2,0,0,0,0,0,0,0,0,0.13,0.14,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Genus of Nitrosomonadaceae,Jan_IB,0,0,0,0,0.14,0.14,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,Sept_B2,0,0,0,0,0,0,0,0,0.1,0.18,0
+d__Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Genus of Gemmatimonadaceae,Jan_B2,0,0,0.12,0.16,0,0,0,0,0,0,0
+d__Bacteria,NB1-j,NB1-j,NB1-j,NB1-j,NB1-j,Jan_B1,0.12,0.15,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,Jan_B1,0.11,0.16,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Gaiellaceae,Gaiella,Sept_B1,0,0,0,0,0,0,0.11,0.17,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Blastocatella,Sept_B2,0,0,0,0,0,0,0,0,0.15,0.12,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Candidatus_Ovatusbacter,Jan_B1,0.13,0.14,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Galbitalea,Jan_B1,0.12,0.15,0,0,0,0,0,0,0,0,0
+d__Bacteria,NB1-j,NB1-j,NB1-j,NB1-j,NB1-j,Sept_B1,0,0,0,0,0,0,0.15,0.12,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Marmoricola,Sept_B1,0,0,0,0,0,0,0.14,0.13,0,0,0
+d__Bacteria,Armatimonadota,Fimbriimonadia,Fimbriimonadales,Fimbriimonadaceae,Fimbriimonadaceae,Jan_B2,0,0,0.16,0.11,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Genus of Rhodocyclaceae,Jan_B2,0,0,0.09,0.18,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Bradyrhizobium,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.27
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Fimbriiglobus,Sept_B1,0,0,0,0,0,0,0.11,0.15,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Subgroup_17,Subgroup_17,Subgroup_17,Jan_B2,0,0,0.14,0.13,0,0,0,0,0,0,0
+d__Bacteria,Myxococcota,Myxococcia,Myxococcales,Vulgatibacteraceae,Vulgatibacter,Sept_B1,0,0,0,0,0,0,0.14,0.13,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Marmoricola,Jan_B1,0.14,0.13,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,Sept_B1,0,0,0,0,0,0,0.13,0.13,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Subgroup_17,Subgroup_17,Subgroup_17,Jan_B1,0.11,0.16,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Genus of Yersiniaceae,Jan_B1,0.13,0.13,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Nocardiaceae,Rhodococcus,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.26
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Genus of Nitrosomonadaceae,Sept_B1,0,0,0,0,0,0,0.18,0.08,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Leptothrix,Sept_B2,0,0,0,0,0,0,0,0,0.12,0.14,0
+d__Bacteria,Desulfobacterota,Class of Desulfobacterota,Order of Desulfobacterota,Family of Desulfobacterota,Genus of Desulfobacterota,Jan_IB,0,0,0,0,0.15,0.1,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Bradyrhizobium,Jan_IB,0,0,0,0,0.11,0.14,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,Jan_IB,0,0,0,0,0.14,0.12,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Candidatus_Ovatusbacter,Jan_B2,0,0,0.13,0.13,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,mle1-7,Sept_B1,0,0,0,0,0,0,0.17,0.08,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,Sept_B2,0,0,0,0,0,0,0,0,0.11,0.14,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Aminobacter,Jan_IB,0,0,0,0,0.12,0.13,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Legionellaceae,Legionella,Sept_B2,0,0,0,0,0,0,0,0,0.13,0.13,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Parvularculaceae,Amphiplicatus,Jan_B2,0,0,0.08,0.16,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,env.OPS_17,env.OPS_17,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.25
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Hoeflea,Jan_B1,0.13,0.12,0,0,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Dehalococcoidia,S085,S085,S085,Jan_B1,0.12,0.12,0,0,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Chlamydiae,Chlamydiales,Parachlamydiaceae,Neochlamydia,Jan_IB,0,0,0,0,0.09,0.16,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Genus of Nitrosomonadaceae,Jan_B1,0.13,0.12,0,0,0,0,0,0,0,0,0
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Jan_B1,0.1,0.15,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Aminobacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.24
+d__Bacteria,Chloroflexi,Dehalococcoidia,S085,S085,S085,Jan_B2,0,0,0.12,0.12,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,PLTA13,PLTA13,PLTA13,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.24
+d__Bacteria,Chloroflexi,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,Sept_B2,0,0,0,0,0,0,0,0,0.12,0.12,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,Hirschia,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.24
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Legionellaceae,Legionella,Sept_B1,0,0,0,0,0,0,0.1,0.14,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Amb-16S-1323,Amb-16S-1323,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.23
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,MND1,Jan_IB,0,0,0,0,0.1,0.14,0,0,0,0,0
+d__Bacteria,Cyanobacteria,Vampirivibrionia,Obscuribacterales,Obscuribacteraceae,Obscuribacteraceae,Jan_B1,0.12,0.1,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Genus of Yersiniaceae,Sept_B1,0,0,0,0,0,0,0.12,0.11,0,0,0
+d__Bacteria,Planctomycetota,BD7-11,BD7-11,BD7-11,BD7-11,Sept_B2,0,0,0,0,0,0,0,0,0.11,0.11,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Genus of Oxalobacteraceae,Jan_B1,0.11,0.11,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Order of Gammaproteobacteria,Family of Gammaproteobacteria,Genus of Gammaproteobacteria,Jan_B1,0.1,0.12,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,Sept_B1,0,0,0,0,0,0,0.07,0.15,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,Jan_B1,0.09,0.13,0,0,0,0,0,0,0,0,0
+d__Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Genus of Gemmatimonadaceae,Jan_IB,0,0,0,0,0.11,0.11,0,0,0,0,0
+d__Bacteria,Chloroflexi,TK10,TK10,TK10,TK10,Jan_IB,0,0,0,0,0.12,0.1,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,mle1-7,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.22
+d__Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Genus of Gemmatimonadaceae,Jan_B1,0.1,0.12,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,Jan_B1,0.1,0.12,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Rhizorhapis,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.22
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Sept_B2,0,0,0,0,0,0,0,0,0.03,0.18,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Legionellaceae,Legionella,Jan_B1,0.11,0.1,0,0,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,Dehalococcoidia,S085,S085,S085,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.21
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Sept_B1,0,0,0,0,0,0,0.12,0.09,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Genus of Hyphomicrobiaceae,Jan_IB,0,0,0,0,0.12,0.09,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,Sept_B1,0,0,0,0,0,0,0.08,0.13,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Blastocatella,Sept_B1,0,0,0,0,0,0,0.1,0.1,0,0,0
+d__Bacteria,Verrucomicrobiota,Chlamydiae,Chlamydiales,Parachlamydiaceae,Neochlamydia,Sept_B2,0,0,0,0,0,0,0,0,0.02,0.19,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Nocardiaceae,Rhodococcus,Jan_IB,0,0,0,0,0.12,0.08,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,11-24,11-24,11-24,Jan_B1,0.09,0.11,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Genus of Rhodobacteraceae,Sept_B1,0,0,0,0,0,0,0.13,0.07,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Family of Burkholderiales,Genus of Burkholderiales,Jan_IB,0,0,0,0,0.1,0.1,0,0,0,0,0
+d__Bacteria,RCP2-54,RCP2-54,RCP2-54,RCP2-54,RCP2-54,Jan_IB,0,0,0,0,0.1,0.1,0,0,0,0,0
+d__Bacteria,Myxococcota,Myxococcia,Myxococcales,Vulgatibacteraceae,Vulgatibacter,Jan_B1,0.1,0.1,0,0,0,0,0,0,0,0,0
+d__Bacteria,WPS-2,WPS-2,WPS-2,WPS-2,WPS-2,Jan_B1,0.1,0.11,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Fimbriiglobus,Sept_B2,0,0,0,0,0,0,0,0,0.12,0.08,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,Sept_B2,0,0,0,0,0,0,0,0,0.1,0.1,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Gemmata,Jan_IB,0,0,0,0,0.12,0.08,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Genus of Rhodospirillaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.2
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Order of Gammaproteobacteria,Family of Gammaproteobacteria,Genus of Gammaproteobacteria,Sept_B2,0,0,0,0,0,0,0,0,0.1,0.1,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Fimbriiglobus,Jan_IB,0,0,0,0,0.11,0.09,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Hoeflea,Jan_B2,0,0,0.06,0.13,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Genus of Yersiniaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.19
+d__Bacteria,Armatimonadota,Fimbriimonadia,Fimbriimonadales,Fimbriimonadaceae,Fimbriimonadaceae,Sept_B1,0,0,0,0,0,0,0.12,0.07,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,Jan_B2,0,0,0.08,0.11,0,0,0,0,0,0,0
+d__Bacteria,Myxococcota,Myxococcia,Myxococcales,Vulgatibacteraceae,Vulgatibacter,Jan_IB,0,0,0,0,0.11,0.08,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Genus of Rhodocyclaceae,Sept_B2,0,0,0,0,0,0,0,0,0.09,0.1,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methyloligellaceae,Genus of Methyloligellaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.19
+d__Bacteria,Acidobacteriota,Acidobacteriae,Elev-16S-1166,Elev-16S-1166,Elev-16S-1166,Sept_B1,0,0,0,0,0,0,0.08,0.1,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Galbitalea,Sept_B1,0,0,0,0,0,0,0.06,0.12,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Candidatus_Ovatusbacter,Sept_B1,0,0,0,0,0,0,0.06,0.12,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,Jan_B2,0,0,0.08,0.11,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,Jan_B1,0.09,0.1,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Blastocatella,Jan_B2,0,0,0.1,0.08,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhizobacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.18
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Genus of Chitinophagaceae,Sept_B2,0,0,0,0,0,0,0,0,0.07,0.11,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,Jan_B1,0.11,0.07,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Devosiaceae,Devosia,Jan_IB,0,0,0,0,0.09,0.1,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Undibacterium,Jan_B2,0,0,0.07,0.11,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,Sept_B1,0,0,0,0,0,0,0.06,0.12,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Order of Gammaproteobacteria,Family of Gammaproteobacteria,Genus of Gammaproteobacteria,Sept_B1,0,0,0,0,0,0,0.03,0.15,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Fimbriiglobus,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.18
+d__Bacteria,Chloroflexi,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,Sept_B1,0,0,0,0,0,0,0.09,0.08,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Genus of Yersiniaceae,Jan_IB,0,0,0,0,0.1,0.07,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Chlamydiae,Chlamydiales,Parachlamydiaceae,Neochlamydia,Jan_B2,0,0,0.11,0.07,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Family of Rhizobiales,Genus of Rhizobiales,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.18
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Parvularculaceae,Amphiplicatus,Jan_B1,0.1,0.08,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Order of Gammaproteobacteria,Family of Gammaproteobacteria,Genus of Gammaproteobacteria,Jan_IB,0,0,0,0,0.08,0.09,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,SC-I-84,SC-I-84,Jan_IB,0,0,0,0,0.09,0.08,0,0,0,0,0
+d__Bacteria,Myxococcota,Myxococcia,Myxococcales,Vulgatibacteraceae,Vulgatibacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.17
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Genus of Gallionellaceae,Jan_B1,0.08,0.09,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Undibacterium,Jan_B1,0.07,0.1,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Blastocatella,Jan_B1,0.08,0.09,0,0,0,0,0,0,0,0,0
+d__Bacteria,Planctomycetota,OM190,OM190,OM190,OM190,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.17
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Acetobacterales,Acetobacteraceae,Genus of Acetobacteraceae,Jan_B2,0,0,0.08,0.09,0,0,0,0,0,0,0
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.17
+d__Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Jan_IB,0,0,0,0,0.1,0.07,0,0,0,0,0
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Fimbriiglobus,Jan_B2,0,0,0.09,0.08,0,0,0,0,0,0,0
+d__Bacteria,WPS-2,WPS-2,WPS-2,WPS-2,WPS-2,Sept_B1,0,0,0,0,0,0,0.13,0.04,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhizobacter,Jan_IB,0,0,0,0,0.09,0.07,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Aridibacter,Jan_B2,0,0,0.08,0.08,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Marmoricola,Jan_IB,0,0,0,0,0.08,0.08,0,0,0,0,0
+d__Bacteria,Phylum of d__Bacteria,Class of d__Bacteria,Order of d__Bacteria,Family of d__Bacteria,Genus of d__Bacteria,Sept_B2,0,0,0,0,0,0,0,0,0.05,0.1,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Phreatobacter,Sept_B2,0,0,0,0,0,0,0,0,0.08,0.08,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Hydrogenophaga,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.15
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,Genus of Beijerinckiaceae,Sept_B1,0,0,0,0,0,0,0.05,0.1,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Hydrogenophaga,Jan_IB,0,0,0,0,0.08,0.07,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Afipia,Jan_IB,0,0,0,0,0.09,0.07,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Rhizorhapis,Sept_B2,0,0,0,0,0,0,0,0,0.08,0.07,0
+d__Bacteria,Chloroflexi,Anaerolineae,SBR1031,A4b,A4b,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.15
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Genus of Rhizobiaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.15
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Sulfuritalea,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.15
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Genus of Verrucomicrobiaceae,Sept_B1,0,0,0,0,0,0,0.05,0.1,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Candidatus_Ovatusbacter,Sept_B2,0,0,0,0,0,0,0,0,0.08,0.07,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,Sept_B2,0,0,0,0,0,0,0,0,0.05,0.1,0
+d__Bacteria,NB1-j,NB1-j,NB1-j,NB1-j,NB1-j,Jan_IB,0,0,0,0,0.08,0.07,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Frankiales,Sporichthyaceae,Sporichthya,Jan_B1,0.07,0.08,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,SC-I-84,SC-I-84,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.15
+d__Bacteria,Phylum of d__Bacteria,Class of d__Bacteria,Order of d__Bacteria,Family of d__Bacteria,Genus of d__Bacteria,Sept_B1,0,0,0,0,0,0,0.13,0.02,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,Jan_IB,0,0,0,0,0.07,0.08,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Acetobacterales,Acetobacteraceae,Genus of Acetobacteraceae,Jan_B1,0.08,0.07,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Devosiaceae,Devosia,Sept_B2,0,0,0,0,0,0,0,0,0.05,0.1,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Candidatus_Accumulibacter,Jan_B2,0,0,0.06,0.08,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Candidatus_Nitrotoga,Sept_B2,0,0,0,0,0,0,0,0,0.05,0.09,0
+d__Bacteria,Planctomycetota,BD7-11,BD7-11,BD7-11,BD7-11,Jan_B2,0,0,0.06,0.08,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Phreatobacter,Sept_B1,0,0,0,0,0,0,0.08,0.06,0,0,0
+d__Bacteria,Verrucomicrobiota,Chlamydiae,Chlamydiales,Parachlamydiaceae,Neochlamydia,Jan_B1,0.08,0.06,0,0,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Genus of Verrucomicrobiaceae,Sept_B2,0,0,0,0,0,0,0,0,0.07,0.07,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Candidatus_Nitrotoga,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.14
+d__Bacteria,Armatimonadota,Fimbriimonadia,Fimbriimonadales,Fimbriimonadaceae,Fimbriimonadaceae,Jan_B1,0.05,0.09,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhodoferax,Jan_B2,0,0,0.06,0.07,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Genus of Microbacteriaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.14
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Aridibacter,Sept_B2,0,0,0,0,0,0,0,0,0.08,0.05,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Genus of Nitrosomonadaceae,Sept_B2,0,0,0,0,0,0,0,0,0.06,0.07,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Rhizorhapis,Sept_B1,0,0,0,0,0,0,0.07,0.06,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,11-24,11-24,11-24,Jan_IB,0,0,0,0,0.06,0.07,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,Genus of Beijerinckiaceae,Jan_IB,0,0,0,0,0.07,0.06,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Family of Burkholderiales,Genus of Burkholderiales,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.13
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,Genus of Pedosphaeraceae,Sept_B1,0,0,0,0,0,0,0.07,0.06,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Gammaproteobacteria_Incertae_Sedis,Unknown_Family,Candidatus_Ovatusbacter,Jan_IB,0,0,0,0,0.07,0.06,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Candidatus_Accumulibacter,Jan_IB,0,0,0,0,0.08,0.05,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Vicinamibacteria,Subgroup_17,Subgroup_17,Subgroup_17,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.13
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Family of Gaiellales,Genus of Gaiellales,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.13
+d__Bacteria,NB1-j,NB1-j,NB1-j,NB1-j,NB1-j,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.13
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Candidatus_Nitrotoga,Sept_B1,0,0,0,0,0,0,0.06,0.06,0,0,0
+d__Bacteria,Chloroflexi,Dehalococcoidia,S085,S085,S085,Jan_IB,0,0,0,0,0.07,0.05,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Frankiales,Sporichthyaceae,Sporichthya,Sept_B1,0,0,0,0,0,0,0.08,0.04,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Phaeodactylibacter,Sept_B1,0,0,0,0,0,0,0.08,0.04,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Family of Rhizobiales,Genus of Rhizobiales,Jan_B1,0.05,0.08,0,0,0,0,0,0,0,0,0
+d__Bacteria,WPS-2,WPS-2,WPS-2,WPS-2,WPS-2,Jan_IB,0,0,0,0,0.04,0.08,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhodoferax,Jan_B1,0.05,0.07,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,Genus of Beijerinckiaceae,Jan_B2,0,0,0.09,0.03,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Phaeodactylibacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.12
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.12
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Aridibacter,Sept_B1,0,0,0,0,0,0,0.04,0.08,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Candidatus_Accumulibacter,Jan_B1,0.06,0.06,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,Genus of Beijerinckiaceae,Sept_B2,0,0,0,0,0,0,0,0,0.08,0.04,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Legionellaceae,Legionella,Jan_B2,0,0,0.07,0.04,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhodoferax,Sept_B1,0,0,0,0,0,0,0.12,0,0,0,0
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Sept_B1,0,0,0,0,0,0,0.11,0,0,0,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Gaiellaceae,Gaiella,Jan_IB,0,0,0,0,0.05,0.06,0,0,0,0,0
+d__Bacteria,WPS-2,WPS-2,WPS-2,WPS-2,WPS-2,Sept_B2,0,0,0,0,0,0,0,0,0.07,0.05,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Family of Rhizobiales,Genus of Rhizobiales,Jan_B2,0,0,0.06,0.05,0,0,0,0,0,0,0
+d__Bacteria,Desulfobacterota,Class of Desulfobacterota,Order of Desulfobacterota,Family of Desulfobacterota,Genus of Desulfobacterota,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.11
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Reyranellales,Reyranellaceae,Genus of Reyranellaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.11
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Genus of Gallionellaceae,Jan_B2,0,0,0,0.11,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Genus of Xanthomonadaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.11
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Edaphobaculum,Sept_B1,0,0,0,0,0,0,0.06,0.05,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,Genus of Sphingobacteriaceae,Jan_IB,0,0,0,0,0.06,0.06,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Devosiaceae,Devosia,Sept_B1,0,0,0,0,0,0,0.06,0.04,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,Blastocatellales,Blastocatellaceae,Aridibacter,Jan_B1,0.06,0.05,0,0,0,0,0,0,0,0,0
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Jan_IB,0,0,0,0,0.03,0.07,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Jan_IB,0,0,0,0,0.06,0.05,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Jan_IB,0,0,0,0,0.07,0.04,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,DS-100,DS-100,DS-100,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.1
+d__Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Microscillaceae,Genus of Microscillaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.1
+d__Bacteria,RCP2-54,RCP2-54,RCP2-54,RCP2-54,RCP2-54,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.1
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Phaeodactylibacter,Jan_B2,0,0,0.02,0.09,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Genus of Chitinophagaceae,Sept_B1,0,0,0,0,0,0,0.06,0.05,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Galbitalea,Jan_IB,0,0,0,0,0.05,0.06,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Order of Gammaproteobacteria,Family of Gammaproteobacteria,Genus of Gammaproteobacteria,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.1
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Genus of Rhodospirillaceae,Sept_B1,0,0,0,0,0,0,0.05,0.05,0,0,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,67-14,67-14,Jan_IB,0,0,0,0,0.06,0.04,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.09
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Afipia,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.09
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.09
+d__Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,Fimbriiglobus,Jan_B1,0.06,0.03,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Thermoanaerobaculia,Thermoanaerobaculales,Thermoanaerobaculaceae,Subgroup_10,Jan_IB,0,0,0,0,0.03,0.06,0,0,0,0,0
+d__Bacteria,Planctomycetota,BD7-11,BD7-11,BD7-11,BD7-11,Jan_B1,0.04,0.04,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Parvularculaceae,Amphiplicatus,Jan_IB,0,0,0,0,0.05,0.04,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Family of Rhizobiales,Genus of Rhizobiales,Jan_IB,0,0,0,0,0.05,0.04,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Undibacterium,Sept_B2,0,0,0,0,0,0,0,0,0.04,0.05,0
+d__Bacteria,Acidobacteriota,Thermoanaerobaculia,Thermoanaerobaculales,Thermoanaerobaculaceae,Subgroup_10,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.08
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,DEV114,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.08
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Salinisphaerales,Solimonadaceae,Nevskia,Jan_IB,0,0,0,0,0.04,0.04,0,0,0,0,0
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Sept_B2,0,0,0,0,0,0,0,0,0.02,0.05,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Family of Gaiellales,Genus of Gaiellales,Jan_IB,0,0,0,0,0.03,0.05,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Dechloromonas,Jan_B2,0,0,0.05,0.03,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,Genus of Pedosphaeraceae,Jan_B2,0,0,0.05,0.02,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,AKYH767,AKYH767,Jan_B2,0,0,0.02,0.05,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,67-14,67-14,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.07
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,Genus of Beijerinckiaceae,Jan_B1,0.03,0.04,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Ramlibacter,Jan_B2,0,0,0.04,0.03,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Ramlibacter,Sept_B1,0,0,0,0,0,0,0.04,0.03,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Salinisphaerales,Solimonadaceae,Nevskia,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.07
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudolabrys,Jan_IB,0,0,0,0,0.03,0.04,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Ramlibacter,Sept_B2,0,0,0,0,0,0,0,0,0.02,0.04,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,NS11-12_marine_group,NS11-12_marine_group,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.06
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Parvularculaceae,Amphiplicatus,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.06
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Edaphobaculum,Jan_B2,0,0,0.04,0.02,0,0,0,0,0,0,0
+d__Bacteria,Phylum of d__Bacteria,Class of d__Bacteria,Order of d__Bacteria,Family of d__Bacteria,Genus of d__Bacteria,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.06
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,MND1,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.06
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Undibacterium,Sept_B1,0,0,0,0,0,0,0.05,0.01,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,Genus of Pedosphaeraceae,Jan_B1,0.03,0.03,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,Jan_B1,0.03,0.03,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Jan_B2,0,0,0.04,0.01,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,AKYH767,AKYH767,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.06
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Pseudolabrys,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.06
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhodoferax,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.06
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Rhizorhapis,Jan_B2,0,0,0.02,0.03,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,AKYH767,AKYH767,Sept_B1,0,0,0,0,0,0,0.03,0.03,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Genus of Rhodospirillaceae,Jan_B1,0.03,0.02,0,0,0,0,0,0,0,0,0
+d__Bacteria,Acidobacteriota,Blastocatellia,11-24,11-24,11-24,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.05
+d__Bacteria,Bdellovibrionota,Bdellovibrionia,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.05
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,TRA3-20,TRA3-20,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.05
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Sept_B2,0,0,0,0,0,0,0,0,0.02,0.03,0
+d__Bacteria,Chloroflexi,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.05
+d__Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Genus of Gemmatimonadaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.05
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Rhizorhapis,Jan_B1,0.03,0.02,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Ramlibacter,Jan_B1,0.02,0.03,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Genus of Rhodospirillaceae,Jan_B2,0,0,0.02,0.03,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Nocardioidaceae,Marmoricola,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.05
+d__Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,Gaiellaceae,Gaiella,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.05
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Sphaerotilus,Jan_IB,0,0,0,0,0.02,0.03,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Genus of Rhodospirillaceae,Sept_B2,0,0,0,0,0,0,0,0,0.02,0.03,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Acetobacterales,Acetobacteraceae,Genus of Acetobacteraceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.04
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,AKYH767,AKYH767,Jan_B1,0.02,0.02,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Devosiaceae,Devosia,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.04
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Leptothrix,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.04
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Dechloromonas,Jan_B1,0.02,0.01,0,0,0,0,0,0,0,0,0
+d__Bacteria,Chloroflexi,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,JG30-KF-CM66,Jan_IB,0,0,0,0,0.02,0.02,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,AKYH767,AKYH767,Sept_B2,0,0,0,0,0,0,0,0,0.02,0.02,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Lacunisphaera,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.04
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Family of Rhodospirillales,Genus of Rhodospirillales,Jan_IB,0,0,0,0,0.02,0.01,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Sept_B1,0,0,0,0,0,0,0.02,0.01,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,NS11-12_marine_group,NS11-12_marine_group,Sept_B2,0,0,0,0,0,0,0,0,0.01,0.02,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Edaphobaculum,Sept_B2,0,0,0,0,0,0,0,0,0.01,0.03,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Candidatus_Accumulibacter,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.03
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,DEV114,Jan_B2,0,0,0,0.03,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,DEV114,Jan_B1,0.01,0.02,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Hoeflea,Jan_IB,0,0,0,0,0.01,0.02,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Frankiales,Sporichthyaceae,Sporichthya,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.03
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.03
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.03
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,NS11-12_marine_group,NS11-12_marine_group,Jan_B2,0,0,0,0.03,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,DEV114,Sept_B1,0,0,0,0,0,0,0.02,0.01,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,Genus of Sphingobacteriaceae,Sept_B1,0,0,0,0,0,0,0,0.03,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Sept_B2,0,0,0,0,0,0,0,0,0.01,0.02,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,Genus of Sphingobacteriaceae,Sept_B2,0,0,0,0,0,0,0,0,0,0.03,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,Genus of Sphingobacteriaceae,Jan_B2,0,0,0.01,0.01,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,NS9_marine_group,NS9_marine_group,Jan_B2,0,0,0,0.02,0,0,0,0,0,0,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,Genus of Pedosphaeraceae,Sept_B2,0,0,0,0,0,0,0,0,0.01,0.01,0
+d__Bacteria,Planctomycetota,BD7-11,BD7-11,BD7-11,BD7-11,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.02
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,NS11-12_marine_group,NS11-12_marine_group,Sept_B1,0,0,0,0,0,0,0,0.02,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiales_Incertae_Sedis,Phreatobacter,Jan_IB,0,0,0,0,0.01,0.01,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Genus of Microbacteriaceae,Jan_IB,0,0,0,0,0.02,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,NS9_marine_group,NS9_marine_group,Sept_B2,0,0,0,0,0,0,0,0,0,0.02,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Chryseobacterium,Sept_B1,0,0,0,0,0,0,0,0.02,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,NS9_marine_group,NS9_marine_group,Jan_B1,0,0.02,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Sphaerotilus,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.02
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,DEV114,Sept_B2,0,0,0,0,0,0,0,0,0,0.02,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Hoeflea,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.02
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Family of Rhodospirillales,Genus of Rhodospirillales,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.02
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Sept_B1,0,0,0,0,0,0,0,0.02,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Ramlibacter,Jan_IB,0,0,0,0,0.02,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,NS11-12_marine_group,NS11-12_marine_group,Jan_B1,0,0.02,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Chryseobacterium,Sept_B2,0,0,0,0,0,0,0,0,0,0.02,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Oxalobacteraceae,Undibacterium,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.01
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Chryseobacterium,Jan_B2,0,0,0,0.01,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Phaeodactylibacter,Jan_B1,0.01,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Dechloromonas,Jan_IB,0,0,0,0,0.01,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Rhodoferax,Sept_B2,0,0,0,0,0,0,0,0,0,0.01,0
+d__Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,Genus of Pedosphaeraceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.01
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,NS9_marine_group,NS9_marine_group,Sept_B1,0,0,0,0,0,0,0,0.01,0,0,0
+d__Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,Jan_IB,0,0,0,0,0.01,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Nitrosomonadaceae,Genus of Nitrosomonadaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.01
+d__Bacteria,Actinobacteriota,Actinobacteria,Frankiales,Sporichthyaceae,Sporichthya,Jan_IB,0,0,0,0,0.01,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Sept_IB,0,0,0,0,0,0,0,0,0,0,0.01
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Jan_IB,0,0,0,0,0.01,0,0,0,0,0,0
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Candidatus_Adlerbacteria,Jan_IB,0,0,0,0,0.01,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Chryseobacterium,Jan_B1,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,Genus of Sphingobacteriaceae,Jan_B1,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Chryseobacterium,Jan_IB,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Genus of Rhodocyclaceae,Jan_IB,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Legionellaceae,Legionella,Jan_IB,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Genus of Gallionellaceae,Sept_B1,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Genus of Gallionellaceae,Sept_B2,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Galbitalea,Sept_IB,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Patescibacteria,Parcubacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Candidatus_Nomurabacteria,Sept_IB,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Gallionellaceae,Genus of Gallionellaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Dechloromonas,Sept_IB,0,0,0,0,0,0,0,0,0,0,0
+d__Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Genus of Rhodocyclaceae,Sept_IB,0,0,0,0,0,0,0,0,0,0,0

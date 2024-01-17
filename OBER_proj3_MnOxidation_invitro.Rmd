@@ -89,7 +89,7 @@ All input data have been created with QIIME2 and are imported in {r session_info
 physeq = qza_to_phyloseq(
   features = "input_data/OBER_16S_515F926R_Q15250_20220803_table.qza",
   tree = "input_data/OBER_16S_515F926R_Q15250_20220803_rooted-tree.qza",
-  taxonomy = "input_data/OBER_16S_515F926R_Q15250_20220803_taxonomy_NB_classifier_SILVA_132_99_16S_515F-926R_QIIME2-2019.10.qza",
+  taxonomy = "input_data/OBER_16S_515F926R_Q15250_20220803_classifier_silva_138-99.qza",
     metadata = "input_data/OBER_16S_515F926R_Q15250_20220803@metadata_formatted.txt")
 
 write_rds(physeq, "output_data/physeq.rds")
@@ -125,8 +125,985 @@ psdata_OBER <- merge_phyloseq(otu_table(physeq), sample_data(physeq), tax_table(
 ## clean taxonomy tags with no information
 # specify NA taxon name tags to last known taxon names
 # REDO
-source("scripts/tax_clean.r")
+rm(tax_clean)
+source("scripts/tax_clean_updated.R")
+
 tax_clean(psdata_OBER)
+
+psdata_OBER = readRDS("output_data/psdata_OBER_cleaned.rds")  
+  
+```
+
+```{r clean on taxonomy, message=F, echo=F, eval=F, warning=T, include=F, cache=F}
+
+# remove non-informative taxa
+old = ntaxa(psdata_OBER)
+new = psdata_OBER %>% 
+  subset_taxa(., Kingdom != "Eukaryota") %>% # 0 ASVs lost
+  subset_taxa(., !is.na(Phylum)) %>% # 0 ASVs lost (most likely Eurkaryotes, see SI)
+  subset_taxa(., Family != "Mitochondria") %>% # 35 ASVs lost
+  subset_taxa(., Class != "Chloroplast") %>% # 0 ASVs lost
+ntaxa()
+# number of ASVs removed:
+old-new # 35 ASVs are removed
+
+# now continue with fitered psdata_OBER:
+psdata_OBER = psdata_OBER %>% 
+  subset_taxa(., Kingdom != "Eukaryota") %>% # 0 ASVs lost
+  subset_taxa(., !is.na(Phylum)) %>% # 0 ASVs lost (most likely Eurkaryotes, see SI)
+  subset_taxa(., Family != "Mitochondria") %>% # 35 ASVs lost
+  subset_taxa(., Class != "Chloroplast") # 0 ASVs lost
 
 ```
 
+```{r filter blanks and samples, message=F, echo=F, eval=T, warning=T, include=F, cache=F}
+
+# full dataset
+# filter out blank
+psdata_OBER_blank = 
+  psdata_OBER %>% 
+  subset_samples(., Sample_type == "blank") %>% 
+  prune_taxa(taxa_sums(.)>0, .) # 129 taxa
+
+# filter out mock community
+psdata_OBER_mock = 
+  psdata_OBER %>% 
+  subset_samples(., Sample_type == "mock") %>% 
+  prune_taxa(taxa_sums(.)>0, .) # 609 taxa
+
+# save mock rds
+psdata_OBER_mock %>% saveRDS(object = ., file = glue::glue("~/Wetsus_Projects/PVEE/Data_analyses/mock_communities_wetsus/mock_communities_wetsus/input_data/{proj}_mock.rds"))
+
+# retain only samples OBER_proj3
+psdata_OBER_samples = 
+  psdata_OBER %>% 
+  subset_samples(., Sample_mock == "sample") %>% 
+  prune_taxa(taxa_sums(.)>0, .) # 4096 taxa
+
+# retain only samples from January and September experiments of Biofilm incula and Bottles 1 & 2 (# 2634 ASVs)
+psdata_OBER = 
+  psdata_OBER %>% 
+  subset_samples(., grepl("Jan|Sep", Sample_name)) %>% 
+  subset_samples(., !grepl("_NA", Sample_name)) %>% 
+  prune_taxa(taxa_sums(.)>0, .)
+
+# average and variation in coverage
+mean(sample_sums(psdata_OBER)) # = 62347
+summary(sample_sums(psdata_OBER))
+sum(sample_sums(psdata_OBER)) # 685820 reads after filtering BODAC samples
+
+# number of reads in Blank (#3015)
+sum(sample_sums(psdata_OBER_blank)) # across 1 NCs 3015 reads were detected
+
+```
+
+```{r calculate relative abundance, message=F, echo=F, eval=T, warning=T, include=F, cache=F, }
+
+
+# relative abundance data on BODAC samples
+psdata_OBER_rel <- transform_sample_counts(psdata_OBER, fun = function(x) x/sum(x)) # 2562 taxa (100% abundance)
+
+total_sum = sum(sample_sums(psdata_OBER)) # total reads left = 685547
+
+# abundance filter at (0.01%, 0.1% 0.5%)
+psdata_OBER_0.01pct <- prune_taxa(taxa_sums(psdata_OBER_rel) > 0.0001, psdata_OBER)
+psdata_OBER_0.05pct <- prune_taxa(taxa_sums(psdata_OBER_rel) > 0.0005, psdata_OBER)
+psdata_OBER_0.1pct <- prune_taxa(taxa_sums(psdata_OBER_rel) > 0.001, psdata_OBER)
+
+# taxa remaining after filters
+ntaxa(psdata_OBER_0.01pct)  #2562 
+ntaxa(psdata_OBER_0.05pct)  #1516 
+ntaxa(psdata_OBER_0.1pct)   #1103 
+
+# associated relative abundances with filters
+num(100*(sum(sample_sums(psdata_OBER_0.01pct))/total_sum), digits = 3) # (100.000% abundance)
+num(100*(sum(sample_sums(psdata_OBER_0.05pct))/total_sum), digits = 3) # (97.633% abundance)
+num(100*(sum(sample_sums(psdata_OBER_0.1pct))/total_sum), digits = 3)  # (94.899% abundance)
+
+### choice to continue downstream analysis with abundance filter that retains ASVs with at least 0.1% of total read abundance. (i.e. retaining > 99% of sequences)
+psdata_OBER_unfiltered <- psdata_OBER # save unfiltered data
+psdata_OBER <- psdata_OBER_0.01pct # overwrite psdata_OBER for abundance filtered data
+
+```
+
+```{r rarefaction curves, message=F, echo=T, eval=T, warning=T, include=T, cache=F}
+# alpha rarefaction curve
+source("scripts/ampvis2_internals.r")
+source("scripts/amp_rankabundance.r")
+source("scripts/amp_rarecurve.r")
+
+# create combined metadata factor
+sample_data(psdata_OBER_unfiltered)$combined = factor(paste0(
+  sample_data(psdata_OBER_unfiltered)$Sample_name, "-", 
+  sample_data(psdata_OBER_unfiltered)$Replicate))
+
+sample_data(psdata_OBER)$combined = factor(paste0(
+  sample_data(psdata_OBER)$Sample_name, "-", 
+  sample_data(psdata_OBER)$Replicate))
+
+# show plot
+amp_rarecurve(psdata_OBER_unfiltered, color = "combined", legend.position = "bottomright")
+
+# save plot
+pdf(glue::glue("figures/{proj}_rarefaction_curves.pdf"), useDingbats = F, width = 8, height = 6)
+amp_rarecurve(psdata_OBER_unfiltered, color = "combined", legend.position = "bottomright")
+dev.off()
+
+pdf(glue::glue("figures/{proj}_rarefaction_curves_filtered.pdf"), useDingbats = F, width = 8, height = 6)
+amp_rarecurve(psdata_OBER, color = "combined", legend.position = "bottomright")
+dev.off()
+
+#amp_rarecurve(psdata_OBER, color = "combined", legend.position = "bottomright")
+#amp_rarecurve(psdata_OBER, color = "Protocol", legend.position = "bottomright")
+
+# difference in sample coverage (1.47)
+max(sample_sums(psdata_OBER)/min(sample_sums(psdata_OBER)))
+
+```
+
+```{r avg_rarefy psdata, message=F, echo=T, eval=T, warning=T, include=T, cache=F}
+
+# summary statistics of dataset
+summary(sample_sums(psdata_OBER)) %>% 
+  enframe(name = "statistic", value = "read count") %>% 
+  as_tibble() %>% kableExtra::kbl(caption = "summary statistics of sequence data set", centering = T, align = "l") %>% kableExtra::kable_classic()
+
+
+# rarefy to 48342
+  # create subset frequency matrix
+  OBER_matrix <- as.matrix(t(otu_table(psdata_OBER)))
+  class(OBER_matrix) <- "matrix"
+  # determine minimal sampling depth
+  min_sample <- min(sample_sums(psdata_OBER))
+  
+  # rarefaction taking mean of 100 iterations
+  set.seed(711)
+  # OBER_rare48342 <- avgdist(OBER_matrix, d_method="bray", sample = min_sample, iterations = 100)
+  # not using this: we also aim to calculate UniFrac
+  source("scripts/avgrarefy.r")
+  OBER_rare48342_table = avgrarefy(x=OBER_matrix, sample = min_sample, iterations = 100, seed = 711)
+
+# create phyloseq object with rarefied data  
+psdata_OBER_rare <- psdata_OBER
+otu_rare = otu_table(data.frame(t(OBER_rare48342_table)), taxa_are_rows = TRUE)
+otu_table(psdata_OBER_rare) <- otu_rare
+
+```
+
+```{r plot alpha diversity ASV rare, message=F, echo=T, eval=T, warning=T, include=T, cache=F}
+
+# calculate alpha diversity: richness & Shannon
+
+# rarefied
+alpha <- estimate_richness(psdata_OBER_rare, measures = c("Observed", "Chao1", "Shannon"))
+alpha$sampleid <- row.names(alpha)
+metadata = sample_data(psdata_OBER_rare) %>% as.data.frame() %>% 
+  as_tibble(rownames = "sampleid") %>% 
+  filter(sampleid %in% sample_names(psdata_OBER_rare))
+alpha <- inner_join(metadata, alpha, by = "sampleid")
+alpha$combined = factor(paste0(
+  alpha$Sample_mock, "-", 
+  alpha$Sample_type, "-", 
+  alpha$Replicate))
+
+# summary statistics of number of samples per group
+alpha %>% 
+  group_by(Sample_mock, Sample_type) %>% 
+  count
+
+# save alpha diversity
+alpha %>% 
+  select(sampleid, Sample_type, Sample_name, ASV_richness = Observed, ASV_Chao1 = Chao1 , ASV_Shannon = Shannon) %>%
+  mutate(across(where(is.double), ~round(., digits = 2))) %>% 
+         write_csv("output_data/OBER_proj3_MnOx_ASV_alpha_diversity.csv")
+
+# print alpha diversity
+alpha %>% 
+  select(sampleid, Sample_type, Sample_name, ASV_richness = Observed, ASV_Chao1 = Chao1 , ASV_Shannon = Shannon) %>% 
+as_tibble() %>% kableExtra::kbl(caption = "Alpha diversity statistics", centering = T, align = "l") %>% kableExtra::kable_classic()
+
+```
+
+```{r plot alpha diversity Genus rare, message=F, echo=T, eval=T, warning=T, include=T, cache=F}
+
+# calculate alpha diversity: richness & Shannon
+psdata_OBER_rare_Genus = tax_glom(psdata_OBER_rare, "Genus")
+
+# rarefied
+alpha_Genus <- estimate_richness(psdata_OBER_rare_Genus, measures = c("Observed", "Chao1", "Shannon"))
+alpha_Genus$sampleid <- row.names(alpha_Genus)
+metadata = sample_data(psdata_OBER_rare_Genus) %>% as.data.frame() %>% 
+  as_tibble(rownames = "sampleid") %>% 
+  filter(sampleid %in% sample_names(psdata_OBER_rare_Genus))
+alpha_Genus <- inner_join(metadata, alpha_Genus, by = "sampleid")
+alpha_Genus$combined = factor(paste0(
+  alpha_Genus$Sample_mock, "-", 
+  alpha_Genus$Sample_type, "-", 
+  alpha_Genus$Replicate))
+
+# summary statistics of number of samples per group
+alpha_Genus %>% 
+  group_by(Sample_mock, Sample_type) %>% 
+  count
+  
+# save genus alpha diversity
+alpha_Genus %>% 
+  select(sampleid, Sample_type, Replicate, Genus_richness = Observed, Genus_Chao1 = Chao1 , Genus_Shannon = Shannon) %>%
+  mutate(across(where(is.double), ~round(., digits = 2))) %>% 
+         write_csv("output_data/OBER_proj3_MnOx_Genus_alpha_diversity.csv")
+
+# print genus alpha diversity
+alpha_Genus %>% 
+  select(sampleid, Sample_type, Sample_name, Genus_richness = Observed, Genus_Chao1 = Chao1 , Genus_Shannon = Shannon) %>% 
+as_tibble() %>% kableExtra::kbl(caption = "Genus Alpha diversity statistics", centering = T, align = "l") %>% kableExtra::kable_classic()
+
+
+```
+
+```{r plot alpha diversity Genus rare min1pct, message=F, echo=T, eval=T, warning=T, include=T, cache=F}
+
+# calculate alpha diversity: richness & Shannon
+psdata_OBER_rare_Genus = tax_glom(psdata_OBER_rare, "Genus")
+psdata_OBER_rare_Genus_rel = transform_sample_counts(psdata_OBER_rare_Genus, function(x) x/sum(x))
+
+# filter taxa with abundance minimal 1%
+psdata_OBER_rare_Genus_min1pct = prune_taxa(taxa_sums(psdata_OBER_rare_Genus_rel)>0.01, psdata_OBER_rare_Genus)
+
+# rarefied
+alpha_Genus_min1pct <- estimate_richness(psdata_OBER_rare_Genus_min1pct, measures = c("Observed", "Chao1", "Shannon"))
+alpha_Genus_min1pct$sampleid <- row.names(alpha_Genus_min1pct)
+metadata = sample_data(psdata_OBER_rare_Genus_min1pct) %>% as.data.frame() %>% 
+  as_tibble(rownames = "sampleid") %>% 
+  filter(sampleid %in% sample_names(psdata_OBER_rare_Genus_min1pct))
+alpha_Genus_min1pct <- inner_join(metadata, alpha_Genus_min1pct, by = "sampleid")
+alpha_Genus_min1pct$combined = factor(paste0(
+  alpha_Genus_min1pct$Sample_mock, "-", 
+  alpha_Genus_min1pct$Sample_type, "-", 
+  alpha_Genus_min1pct$Replicate))
+
+# summary statistics of number of samples per group
+alpha_Genus_min1pct %>% 
+  group_by(Sample_mock, Sample_type) %>% 
+  count
+  
+#reformat dates
+#alpha2_Genus_min1pct = alpha_Genus #%>% 
+  # dplyr::mutate(date = lubridate::ymd(sampling_date),
+  #                        sampling_time = if_else(is.na(sampling_time), "after", sampling_time),
+  #                        month = as.numeric(as.character(month)),
+  #                        month = lubridate::month(month, label = T),
+  #                        year = as.factor(year),
+  #                        sample_type = factor(sample_type, levels = c("granule", "backwash")))
+
+alpha_Genus_min1pct %>% 
+  select(sampleid, Sample_name, Sample_type, Replicate, Genus_richness = Observed, Genus_Chao1 = Chao1 , Genus_Shannon = Shannon) %>%
+  mutate(across(where(is.double), ~round(., digits = 2))) %>% 
+         write_csv("output_data/OBER_proj3_MnOx_Genus_alpha_diversity.csv")
+
+
+# print genus >1% alpha diversity
+alpha_Genus_min1pct %>% 
+  select(sampleid, Sample_type, Sample_name, ASV_richness = Observed, ASV_Chao1 = Chao1 , ASV_Shannon = Shannon) %>% 
+as_tibble() %>% kableExtra::kbl(caption = "Genus >1% Alpha diversity statistics", centering = T, align = "l") %>% kableExtra::kable_classic()
+
+```
+```{r Genus-level alpha diversity means}
+
+alpha_Genus %>% 
+  select(sampleid, Sample_type, Sample_name, Genus_Richness_mean_sd = Observed, Genus_Chao1_mean_sd = Chao1 , Genus_Shannon_mean_sd = Shannon) %>% 
+  pivot_longer(cols = c(4:ncol(.)), names_to = "Alpha_metric", values_to = "value") %>% 
+  group_by(Sample_type, Alpha_metric) %>% 
+  summarise(mean = mean(value), sd = sd(value), n=n(), min=min(value), max = max(value), .groups = "drop") %>% 
+  mutate(sd = case_when(is.na(sd) ~ "-", 
+                        Sample_type == "JO" ~ "-",
+                        TRUE~ as.character(round(sd, digits = 2)))) %>% 
+  mutate(mean_sd = as.character(paste0(round(mean, digits = 2), " (", sd , ")"))) %>% 
+  select(Sample_type, n_samples = n, Alpha_metric, mean_sd) %>% 
+  pivot_wider(names_from = Alpha_metric, values_from = mean_sd) %>% 
+  write_csv("output_data/OBER_proj3_MnOx_Genus_alpha_diversity_averages_stdev.csv")
+  
+  
+alpha_Genus %>% 
+  select(sampleid, Sample_type, Sample_name, Genus_Richness = Observed, Genus_Chao1= Chao1 , Genus_Shannon = Shannon) %>% 
+  mutate(Genus_Shannon = round(Genus_Shannon, digits = 2)) %>% 
+  write_csv("output_data/OBER_proj3_MnOx_Genus_alpha_diversity.csv")
+  
+
+```
+
+
+```{r total beta diversity ASV rel_abund, message=F, echo=F, eval=F, warning=F, include=F, cache=F, fig.height=5, fig.width=7}
+
+# input data 
+psdata_OBER_rare
+
+### Beta diversity analysis first
+# input data  = psdata
+psdata_OBER_rare_ASV_rel = transform_sample_counts(psdata_OBER_rare, function(x) x/sum(x))
+psdata_OBER_rare_ASV_clr = microbiome::transform(psdata_OBER_rare, transform = "clr")
+
+# ordination
+PCoA_BC_rel <- ordinate(psdata_OBER_rare_ASV_rel, method = "PCoA", distance = "bray")
+PCoA_Jac_rel <- ordinate(psdata_OBER_rare_ASV_clr, method = "PCoA", distance = "jaccard")
+
+
+
+plot_PCoA_BC_rel <- 
+  plot_ordination(physeq = psdata_OBER_rare_ASV_rel, 
+                  ordination = PCoA_BC_rel, 
+                  type = "samples", 
+                  axes = c(1,2), 
+                  color = "Sample_type") + 
+  ggrepel::geom_text_repel(aes(label = Sample_name), size = 2) +
+  scale_color_manual(values = c(brewer.pal(6, "Dark2"))) + 
+  geom_point(size=2) +
+  ggtitle("Bray Curtis\n(ASV presence and relative abundance)") 
+
+# plot_PCoA_Jac_rel <- 
+#   plot_ordination(physeq = psdata_OBER_rare_ASV_rel, 
+#                   ordination = PCoA_Jac_rel, 
+#                   type = "samples", 
+#                   axes = c(1,2), 
+#                   color = "Sample_type") + 
+#   ggrepel::geom_text_repel(aes(label = Description), size = 2) +
+#   scale_color_manual(values = c(brewer.pal(6, "Dark2"))) + 
+#   geom_point(size=2) +
+#   ggtitle("Jaccard\n(Genus presence only)") 
+#   
+
+
+
+
+# # Combine the plots with shared legend
+# combined_plots <- patchwork::wrap_plots(plot_PCoA_BC_rel, plot_PCoA_Jac_rel) +
+#   patchwork::plot_layout(guides = "collect") 
+# 
+# # Display the combined plot
+# print(combined_plots)
+print(plot_PCoA_BC_rel)
+
+ggsave(plot = plot_PCoA_BC_rel, filename = glue("figures/{proj}_plot_ASV_PCoA_BrayC_beta_diversity_rarefied_rel.pdf"), width = 6, height = 4)
+
+
+```
+
+```{r total beta diversity Genus rel_abund, message=F, echo=F, eval=F, warning=F, include=F, cache=F, fig.height=5, fig.width=7}
+
+# input data 
+psdata_OBER_rare_Genus
+
+### Beta diversity analysis first
+# input data  = psdata
+psdata_OBER_rare_Genus_rel = transform_sample_counts(psdata_OBER_rare_Genus, function(x) x/sum(x))
+psdata_OBER_rare_Genus_clr = microbiome::transform(psdata_OBER_rare_Genus, transform = "clr")
+
+# ordination
+PCoA_BC_Genus_rel <- ordinate(psdata_OBER_rare_Genus_rel, method = "PCoA", distance = "bray")
+PCoA_Jac_Genus_rel <- ordinate(psdata_OBER_rare_Genus_clr, method = "PCoA", distance = "jaccard")
+
+
+
+plot_PCoA_BC_Genus_rel <- 
+  plot_ordination(physeq = psdata_OBER_rare_Genus_rel, 
+                  ordination = PCoA_BC_Genus_rel, 
+                  type = "samples", 
+                  axes = c(1,2), 
+                  color = "Sample_type") + 
+  ggrepel::geom_text_repel(aes(label = Sample_name), size = 2) +
+  scale_color_manual(values = c(brewer.pal(6, "Dark2"))) + 
+  geom_point(size=2) +
+  ggtitle("Bray Curtis\n(Genus presence and relative abundance)") 
+
+plot_PCoA_Genus_Jac_rel <-
+  plot_ordination(physeq = psdata_OBER_rare_Genus_rel,
+                  ordination = PCoA_Jac_Genus_rel,
+                  type = "samples",
+                  axes = c(1,2),
+                  color = "Sample_type") +
+  ggrepel::geom_text_repel(aes(label = Sample_name), size = 2) +
+  scale_color_manual(values = c(brewer.pal(6, "Dark2"))) +
+  geom_point(size=2) +
+  ggtitle("Jaccard\n(Genus presence only)")
+
+
+
+
+
+# # Combine the plots with shared legend
+# combined_plots <- patchwork::wrap_plots(plot_PCoA_BC_rel, plot_PCoA_Jac_rel) +
+#   patchwork::plot_layout(guides = "collect") 
+# 
+# # Display the combined plot
+# print(combined_plots)
+print(plot_PCoA_BC_Genus_rel)
+print(plot_PCoA_Genus_Jac_rel)
+
+ggsave(plot = plot_PCoA_BC_Genus_rel, filename = glue("figures/{proj}_plot_Genus_PCoA_BrayC_beta_diversity_rarefied_rel.pdf"), width = 6, height = 4)
+
+ggsave(plot = plot_PCoA_Genus_Jac_rel, filename = glue("figures/{proj}_plot_Genus_PCoA_Jaccard_beta_diversity_rarefied_rel.pdf"), width = 6, height = 4)
+
+```
+
+
+### Relative abundance of Phylum
+```{r rel abund barplot phylum, message=F, echo=T, eval=T, warning=T, include=T, cache=T}
+
+### work towards rel abund plot
+library(RColorBrewer)
+colorset <- c("darkblue", "darkgoldenrod1", "darkseagreen", "darkorchid", "darkolivegreen1", "lightskyblue", "darkgreen",  "khaki2", "firebrick", "brown1", "darkorange1", "cyan1", "royalblue4", "darksalmon", "darkblue", "royalblue4", "dodgerblue3", "steelblue1", "lightskyblue", "darkseagreen", "darkgoldenrod1", "darkseagreen", "darkorchid", "darkolivegreen1", "brown1", "darkorange1", "cyan1", "darkgrey", "darkblue", "darkgoldenrod1", "darkseagreen", "darkorchid", "darkolivegreen1", "lightskyblue", "darkgreen", "deeppink", "khaki2", "firebrick", "brown1", "darkorange1", "cyan1", "royalblue4", "darksalmon", "darkblue", "royalblue4", "dodgerblue3", "steelblue1", "lightskyblue", "darkseagreen", "darkgoldenrod1", "darkseagreen", "darkorchid", "darkolivegreen1", "brown1", "darkorange1", "cyan1", "darkgrey")
+
+#input data
+psdata_OBER_rare
+
+ps_Phylum <- psmelt(transform_sample_counts(tax_glom(psdata_OBER_rare, "Phylum"), fun = function(x) x/sum(x)))
+
+### write rel abund data plus other tax info
+ps_Phylum %>% 
+  filter(!grepl("mock", combined), # remove mock communities
+         Sample_mock != "blank") %>% # remove NC blanks
+  as_tibble() %>% 
+  select(Sample, Sample_type, Replicate, Kingdom:Phylum, Abundance) %>% 
+  group_by_at(vars(-Abundance)) %>% 
+  summarize(rel_abund = sum(Abundance), .groups = "drop") %>% 
+  group_by_at(vars(-rel_abund)) %>% 
+  summarize(mean_rel_abund = 100* mean(rel_abund), .groups = "drop") %>% 
+  select(Kingdom:Phylum, Sample, mean_rel_abund) %>% 
+  pivot_wider(names_from = Sample, values_from = mean_rel_abund, values_fill = 0) %>% 
+  group_by_at(vars(Kingdom:Phylum)) %>% 
+  rowwise() %>% 
+  mutate(mean = mean(c_across(where(is.numeric)))) %>% 
+  arrange(desc(mean)) %>% 
+  select(-mean) %>% 
+  ungroup() %>% 
+  mutate(across(where(is.numeric), ~round(.x, digits = 2))) %>% 
+  write_csv("output_data/OBER_proj3_MnOx_relative_Phylum_abundances_sorted_by_overall_mean.csv", col_names = T, append = F)
+
+
+# count n genera n = 462
+ps_Phylum %>% 
+  as_tibble() %>% 
+  mutate(Phylum = factor(Phylum)) %>% 
+  pull(Phylum) %>% 
+  levels() %>% 
+  length()
+
+
+Phylum_abundances <- ps_Phylum %>% 
+  as_tibble() %>% 
+  select(Sample, Sample_type, Replicate, Phylum, Abundance) %>% 
+  mutate(wwtp = as.character(Sample_type),
+         time = as.character(Replicate),
+         condition = as.character(Sample)) %>% 
+  group_by(Sample, Sample_type, Replicate, Phylum) %>% 
+  summarize(rel_abund = sum(Abundance), .groups = "drop") %>% 
+  group_by(Sample, Sample_type, Replicate, Phylum) %>% 
+  summarize(mean_rel_abund = 100* mean(rel_abund), .groups = "drop") %>% 
+  mutate(Phylum = str_replace(Phylum, "(.*)_unclassified", "Unclassified *\\1*"),
+         Phylum = str_replace(Phylum, "^(\\S*)$", "*\\1*"))
+
+# Reduce genera to lower number (at least 3%, or else called other)
+Phylum_pool <- Phylum_abundances %>% 
+  group_by(Phylum) %>% 
+  summarize(pool = max(mean_rel_abund) < 3, 
+            mean = mean(mean_rel_abund), 
+            .groups = "drop")
+  
+Phylum_pool_1pct <- Phylum_abundances %>% 
+  group_by(Phylum) %>% 
+  summarize(pool = max(mean_rel_abund) < 1, 
+            mean = mean(mean_rel_abund), 
+            .groups = "drop")
+  
+inner_join(Phylum_abundances, Phylum_pool, by="Phylum") %>% 
+  mutate(Phylum = if_else(pool, "Other", Phylum)) %>% 
+  group_by(Phylum) %>%
+  summarize(mean_rel_abund = sum(mean_rel_abund), 
+            mean = min(mean),
+            .groups = "drop") %>% 
+  mutate(Phylum = factor(Phylum), 
+         Phylum = fct_reorder(Phylum, mean, .desc = T))
+
+plot_Phylum <-
+inner_join(Phylum_abundances, Phylum_pool, by="Phylum") %>% 
+  mutate(Phylum = if_else(pool, "Other", Phylum)) %>% 
+  group_by(Sample, Sample_type, Replicate, Phylum) %>% 
+  summarize(mean_rel_abund = sum(mean_rel_abund), 
+            mean = min(mean),
+            .groups = "drop") %>% 
+  mutate(Phylum = factor(Phylum), 
+         Phylum = fct_reorder(Phylum, mean, .desc = T)) %>% 
+         #,
+         # Phylum = fct_shift(Phylum, n=1),
+         # wwtp = factor(wwtp),
+         # time = factor(time, levels = c("T0", "T24", "T48", "T120")),
+         # condition = factor(condition),
+         #day = factor(day), 
+         #day_time = factor(paste0(day, "_", time))
+         # add replicate if not filtered 
+ggplot(aes(x=Sample, y = mean_rel_abund, fill = Phylum)) +
+  scale_fill_manual(values = colorset) +
+  geom_col() +
+ # scale_fill_manual(name=NULL, 
+                    #values = c(brewer.pal(6,"Dark2"),brewer.pal(8,"Paired"), "grey50", colorset[c(1:10)])) + # with palette
+                    #values = colorset) +
+  scale_y_continuous(expand = c(0,0)) +
+  labs(x=NULL, y="Mean Relative Abundance (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_markdown(),
+        legend.text = element_markdown(),
+        legend.key.size = unit(10, "pt")) +
+  # facet_wrap(~Sample_type) +
+  coord_flip()
+
+barplot_Phylum_table_1pct =
+  inner_join(Phylum_abundances, Phylum_pool_1pct, by="Phylum") %>% 
+  mutate(Phylum = if_else(pool, "Other", Phylum)) %>% 
+  group_by(Sample, Sample_type, Replicate, Phylum) %>% 
+  summarize(mean_rel_abund = sum(mean_rel_abund), 
+            mean = min(mean),
+            .groups = "drop") %>% 
+  mutate(Phylum = factor(Phylum), 
+         Phylum = fct_reorder(Phylum, mean, .desc = T)) %>%
+         #Phylum = fct_shift(Phylum, n=1),
+         # wwtp = factor(wwtp),
+         # time = factor(time, levels = c("T0", "T24", "T48", "T120")),
+         # condition = factor(condition),
+         # day = factor(day), 
+         # day_time = factor(paste0(day, "_", time, "_", replicate))) %>% 
+  select(-mean)
+
+barplot_Phylum_table_1pct %>% 
+  select(Sample, Phylum, mean_rel_abund) %>% 
+  pivot_wider(names_from = "Sample", values_from = "mean_rel_abund", values_fill = 0) %>% 
+write.xlsx(., file = "output_data/Phylum_table_1pct.xlsx", col_names = T)  
+  
+    
+plot_Phylum
+
+
+```
+
+### Relative abundance of Order
+```{r rel abund barplot Order, message=F, echo=T, eval=T, warning=T, include=T, cache=T}
+
+
+#input data
+psdata_OBER_rare
+
+ps_Order <- psmelt(transform_sample_counts(tax_glom(psdata_OBER_rare, "Order"), fun = function(x) x/sum(x)))
+
+### write rel abund data plus other tax info
+ps_Order %>% 
+  filter(!grepl("mock", combined), # remove mock communities
+         Sample_mock != "blank") %>% # remove NC blanks
+  as_tibble() %>% 
+  select(Sample, Sample_type, Replicate, Kingdom:Order, Abundance) %>% 
+  group_by_at(vars(-Abundance)) %>% 
+  summarize(rel_abund = sum(Abundance), .groups = "drop") %>% 
+  group_by_at(vars(-rel_abund)) %>% 
+  summarize(mean_rel_abund = 100* mean(rel_abund), .groups = "drop") %>% 
+  select(Kingdom:Order, Sample, mean_rel_abund) %>% 
+  pivot_wider(names_from = Sample, values_from = mean_rel_abund, values_fill = 0) %>% 
+  group_by_at(vars(Kingdom:Order)) %>% 
+  rowwise() %>% 
+  mutate(mean = mean(c_across(where(is.numeric)))) %>% 
+  arrange(desc(mean)) %>% 
+  select(-mean) %>% 
+  ungroup() %>% 
+  mutate(across(where(is.numeric), ~round(.x, digits = 2))) %>% 
+  write_csv("output_data/OBER_proj3_MnOx_relative_Order_abundances_sorted_by_overall_mean.csv", col_names = T, append = F)
+
+
+# count n genera n = 462
+ps_Order %>% 
+  as_tibble() %>% 
+  mutate(Order = factor(Order)) %>% 
+  pull(Order) %>% 
+  levels() %>% 
+  length()
+
+
+Order_abundances <- ps_Order %>% 
+  as_tibble() %>% 
+  select(Sample, Sample_type, Replicate, Order, Abundance) %>% 
+  mutate(wwtp = as.character(Sample_type),
+         time = as.character(Replicate),
+         condition = as.character(Sample)) %>% 
+  group_by(Sample, Sample_type, Replicate, Order) %>% 
+  summarize(rel_abund = sum(Abundance), .groups = "drop") %>% 
+  group_by(Sample, Sample_type, Replicate, Order) %>% 
+  summarize(mean_rel_abund = 100* mean(rel_abund), .groups = "drop") %>% 
+  mutate(Order = str_replace(Order, "(.*)_unclassified", "Unclassified *\\1*"),
+         Order = str_replace(Order, "^(\\S*)$", "*\\1*"))
+
+# Reduce genera to lower number (at least 3%, or else called other)
+Order_pool <- Order_abundances %>% 
+  group_by(Order) %>% 
+  summarize(pool = max(mean_rel_abund) < 3, 
+            mean = mean(mean_rel_abund), 
+            .groups = "drop")
+  
+Order_pool_1pct <- Order_abundances %>% 
+  group_by(Order) %>% 
+  summarize(pool = max(mean_rel_abund) < 1, 
+            mean = mean(mean_rel_abund), 
+            .groups = "drop")
+  
+inner_join(Order_abundances, Order_pool, by="Order") %>% 
+  mutate(Order = if_else(pool, "Other", Order)) %>% 
+  group_by(Order) %>%
+  summarize(mean_rel_abund = sum(mean_rel_abund), 
+            mean = min(mean),
+            .groups = "drop") %>% 
+  mutate(Order = factor(Order), 
+         Order = fct_reorder(Order, mean, .desc = T))
+
+plot_Order <-
+inner_join(Order_abundances, Order_pool, by="Order") %>% 
+  mutate(Order = if_else(pool, "Other", Order)) %>% 
+  group_by(Sample, Sample_type, Replicate, Order) %>% 
+  summarize(mean_rel_abund = sum(mean_rel_abund), 
+            mean = min(mean),
+            .groups = "drop") %>% 
+  mutate(Order = factor(Order), 
+         Order = fct_reorder(Order, mean, .desc = T)) %>% 
+         #,
+         # Order = fct_shift(Order, n=1),
+         # wwtp = factor(wwtp),
+         # time = factor(time, levels = c("T0", "T24", "T48", "T120")),
+         # condition = factor(condition),
+         #day = factor(day), 
+         #day_time = factor(paste0(day, "_", time))
+         # add replicate if not filtered 
+ggplot(aes(x=Sample, y = mean_rel_abund, fill = Order)) +
+  scale_fill_manual(values = colorset) +
+  geom_col() +
+ # scale_fill_manual(name=NULL, 
+                    #values = c(brewer.pal(6,"Dark2"),brewer.pal(8,"Paired"), "grey50", colorset[c(1:10)])) + # with palette
+                    #values = colorset) +
+  scale_y_continuous(expand = c(0,0)) +
+  labs(x=NULL, y="Mean Relative Abundance (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_markdown(),
+        legend.text = element_markdown(),
+        legend.key.size = unit(10, "pt")) +
+  # facet_wrap(~Sample_type) +
+  coord_flip()
+
+barplot_Order_table_1pct =
+  inner_join(Order_abundances, Order_pool_1pct, by="Order") %>% 
+  mutate(Order = if_else(pool, "Other", Order)) %>% 
+  group_by(Sample, Sample_type, Replicate, Order) %>% 
+  summarize(mean_rel_abund = sum(mean_rel_abund), 
+            mean = min(mean),
+            .groups = "drop") %>% 
+  mutate(Order = factor(Order), 
+         Order = fct_reorder(Order, mean, .desc = T)) %>%
+         #Order = fct_shift(Order, n=1),
+         # wwtp = factor(wwtp),
+         # time = factor(time, levels = c("T0", "T24", "T48", "T120")),
+         # condition = factor(condition),
+         # day = factor(day), 
+         # day_time = factor(paste0(day, "_", time, "_", replicate))) %>% 
+  select(-mean)
+
+barplot_Order_table_1pct %>% 
+  select(Sample, Order, mean_rel_abund) %>% 
+  pivot_wider(names_from = "Sample", values_from = "mean_rel_abund", values_fill = 0) %>% 
+write.xlsx(., file = "output_data/Order_table_1pct.xlsx", col_names = T)  
+  
+    
+plot_Order
+
+
+```
+
+# Towards alpha and beta diversity
+
+
+
+
+
+
+
+### Relative abundance of Genus
+```{r rel abund barplot, message=F, echo=T, eval=T, warning=T, include=T, cache=T}
+
+#input data
+#psdata_OBER_rare # rarefied ASV level
+#psdata_OBER_rare_Genus # Genus agglomerated after rarefied at ASV level
+psdata_OBER_rare_Genus_min1pct # filtered to retain >1%
+
+ps_Genus <- psmelt(transform_sample_counts(psdata_OBER_rare_Genus_min1pct, fun = function(x) x/sum(x)))
+
+### write rel abund data plus other tax info
+ps_Genus %>% 
+  # filter(!grepl("mock", combined), # remove mock communities
+  #        Sample_mock != "blank") %>% # remove NC blanks
+  as_tibble() %>% 
+  select(Sample, Sample_name, Sample_type, Replicate, Kingdom:Genus, Abundance) %>% 
+  group_by_at(vars(-Abundance)) %>% 
+  summarize(rel_abund = sum(Abundance), .groups = "drop") %>% 
+  group_by_at(vars(-rel_abund)) %>% 
+  summarize(mean_rel_abund = 100* mean(rel_abund), .groups = "drop") %>% 
+  select(Kingdom:Genus, Sample, Sample_name, mean_rel_abund) %>% 
+  pivot_wider(names_from = Sample, values_from = mean_rel_abund, values_fill = 0) %>% 
+  group_by_at(vars(Kingdom:Genus)) %>% 
+  rowwise() %>% 
+  mutate(mean = mean(c_across(where(is.numeric)))) %>% 
+  arrange(desc(mean)) %>% 
+  select(-mean) %>% 
+  ungroup() %>% 
+  mutate(across(where(is.numeric), ~round(.x, digits = 2))) %>% 
+  write_csv("output_data/OBER_proj3_MnOx_relative_Genus_abundances_min1pct_sorted_by_overall_mean.csv", col_names = T, append = F)
+
+
+
+# count n genera n = 159 after 1pct filter
+ps_Genus %>% 
+  as_tibble() %>% 
+  mutate(Genus = factor(Genus)) %>% 
+  pull(Genus) %>% 
+  levels() %>% 
+  length()
+
+
+Genus_abundances <- ps_Genus %>% 
+  as_tibble() %>% 
+  select(Sample, Sample_name, Sample_type, Replicate, Family, Genus, Abundance) %>% 
+  group_by(Sample, Sample_name, Sample_type, Replicate, Family, Genus) %>% 
+  summarize(rel_abund = sum(Abundance), .groups = "drop") %>% 
+  group_by(Sample, Sample_name, Sample_type, Replicate, Family, Genus) %>% 
+  summarize(mean_rel_abund = 100* mean(rel_abund), .groups = "drop") %>% 
+  mutate(Genus = str_replace(Genus, "(.*)_unclassified", "Unclassified *\\1*"),
+         Genus = str_replace(Genus, "^(\\S*)$", "*\\1*"))
+
+# Reduce genera to lower number (at least 3%, or else called other)
+Genus_pool <- Genus_abundances %>% 
+  group_by(Genus) %>% 
+  summarize(pool = max(mean_rel_abund) < 3, 
+            mean = mean(mean_rel_abund), 
+            .groups = "drop")
+  
+Genus_pool_1pct <- Genus_abundances %>% 
+  group_by(Genus) %>% 
+  summarize(pool = max(mean_rel_abund) < 1, 
+            mean = mean(mean_rel_abund), 
+            .groups = "drop")
+  
+inner_join(Genus_abundances, Genus_pool_1pct, by="Genus") %>% 
+  mutate(Genus = if_else(pool, "Other", Genus)) %>% 
+  group_by(Genus) %>%
+  summarize(mean_rel_abund = sum(mean_rel_abund), 
+            mean = min(mean),
+            .groups = "drop") %>% 
+  mutate(Genus = factor(Genus), 
+         Genus = fct_reorder(Genus, mean, .desc = T))
+
+plot_Genus <-
+inner_join(Genus_abundances, Genus_pool_1pct, by="Genus") %>% 
+  mutate(Genus = if_else(pool, "Other", Genus)) %>% 
+  group_by(Sample, Sample_name, Sample_type, Replicate, Genus) %>% 
+  summarize(mean_rel_abund = sum(mean_rel_abund), 
+            mean = min(mean),
+            .groups = "drop") %>% 
+  mutate(Genus = factor(Genus), 
+         Genus = fct_reorder(Genus, mean, .desc = T)) %>% 
+         #,
+         # Genus = fct_shift(Genus, n=1),
+         # wwtp = factor(wwtp),
+         # time = factor(time, levels = c("T0", "T24", "T48", "T120")),
+         # condition = factor(condition),
+         #day = factor(day), 
+         #day_time = factor(paste0(day, "_", time))
+         # add replicate if not filtered 
+ggplot(aes(x=Sample, y = mean_rel_abund, fill = Genus)) +
+  scale_fill_manual(values = colorset) +
+  geom_col() +
+ scale_fill_manual(name=NULL, 
+                   values = c(brewer.pal(6,"Dark2"),brewer.pal(8,"Paired"), "grey50", colorset)) + # with palette
+                    #values = colorset) +
+  scale_y_continuous(expand = c(0,0)) +
+  labs(x=NULL, y="Mean Relative Abundance (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_markdown(angle = 90),
+        legend.text = element_markdown(),
+        legend.key.size = unit(10, "pt"),
+        legend.position = "bottom") +
+  facet_wrap(~Sample_name, scales = "free")
+
+barplot_genus_table_1pct =
+  inner_join(Genus_abundances, Genus_pool_1pct, by="Genus") %>% 
+  mutate(Genus = if_else(pool, "Other", Genus)) %>% 
+  group_by(Sample, Sample_type, Replicate, Genus) %>% 
+  summarize(mean_rel_abund = sum(mean_rel_abund), 
+            mean = min(mean),
+            .groups = "drop") %>% 
+  mutate(Genus = factor(Genus), 
+         Genus = fct_reorder(Genus, mean, .desc = T)) %>%
+         #Genus = fct_shift(Genus, n=1),
+         # wwtp = factor(wwtp),
+         # time = factor(time, levels = c("T0", "T24", "T48", "T120")),
+         # condition = factor(condition),
+         # day = factor(day), 
+         # day_time = factor(paste0(day, "_", time, "_", replicate))) %>% 
+  select(-mean) 
+
+barplot_genus_table_1pct %>% 
+  select(Sample, Genus, mean_rel_abund) %>% 
+  pivot_wider(names_from = "Sample", values_from = "mean_rel_abund", values_fill = 0) %>% 
+write.xlsx(., file = "output_data/genus_table_1pct.xlsx", col_names = T)  
+  
+    
+plot_Genus
+
+```
+
+```{r geom_tile, fig.dim=c(10,8)}
+
+# remarks order for x axis
+#order = c(1,19,16,6,5,9,17,7,8,4,3,18,2,10,11,12,13,14,15)
+
+taxon_pool <- Genus_abundances %>% 
+  mutate(tax_label = Genus) %>% 
+  group_by(tax_label) %>% 
+  summarise(pool = max(mean_rel_abund) < 1, 
+            mean = mean(mean_rel_abund), 
+            .groups = "drop")
+
+heatmap_data_long = 
+Genus_abundances %>% 
+  mutate(tax_label = Genus) %>% 
+  group_by(Sample_name, tax_label) %>% 
+  summarise(mean_rel_abund = mean(mean_rel_abund), .groups = "drop") %>% 
+inner_join(., taxon_pool, by="tax_label") %>% 
+  group_by(Sample_name, tax_label) %>% 
+  mutate(tax_label = if_else(pool, "Other max.<1%", tax_label)
+         # ,sample_type = ifelse(grepl("6", Sample_nr), "Biofilm", "Broth"),
+         # sample_type = factor(sample_type, levels = c("Broth", "Biofilm"))
+         ) %>% 
+  select(Sample_name, tax_label, mean_rel_abund, mean, pool) %>% 
+  group_by(Sample_name, tax_label) %>% 
+  summarise(sum_rel_abund = sum(mean_rel_abund)) %>% 
+  mutate(tax_label = factor(tax_label), 
+         tax_label = fct_reorder(tax_label, sum_rel_abund, .desc = F)) %>%
+  ungroup()
+
+# determine order of taxa on y axis from mean high to low
+tax_order = 
+heatmap_data_long %>% 
+  mutate(tax_label = as.character(tax_label)) %>% 
+  group_by(tax_label) %>% 
+  summarise(mean = mean(sum_rel_abund)) %>% 
+  arrange(desc(mean)) %>% pull(tax_label)
+
+# create wide format data
+heatmap_data = 
+heatmap_data_long %>% 
+select(Sample_name, tax_label, sum_rel_abund) %>% 
+  pivot_wider(names_from = tax_label, 
+              values_from = sum_rel_abund) 
+
+# make heatmap
+m <- as.matrix(heatmap_data[, 2:ncol(heatmap_data)])
+clust <- hclust(dist(t(m)))
+
+# determine increase, decrease or neutral
+taxon_changes = 
+heatmap_data_long %>% 
+    mutate(tax_label = fct_relevel(tax_label, rev(tax_order)),
+           Sample_name = factor(Sample_name, 
+                                levels = c("Jan_IB", "Jan_B1", "Jan_B2", 
+                                           "Sept_IB", "Sept_B1", "Sept_B2"))) %>% 
+  pivot_wider(names_from = "Sample_name", values_from = "sum_rel_abund") %>% 
+  mutate(Jan_diff = 
+           case_when(Jan_B1 - Jan_IB > 0 & Jan_B2 - Jan_IB > 0 ~ "up", 
+                     Jan_B1 - Jan_IB < 0 & Jan_B2 - Jan_IB < 0 ~ "down", 
+                     TRUE ~ "neutral"),
+         Sept_diff = 
+           case_when(Sept_B1 - Sept_IB > 0 & Sept_B2 - Sept_IB > 0 ~ "up", 
+                     Sept_B1 - Sept_IB < 0 & Sept_B2 - Sept_IB < 0 ~ "down",
+                     TRUE ~ "neutral"),
+         change = case_when(Jan_diff == "up" & Sept_diff == "up" ~ "increasing",
+                            Jan_diff == "down" & Sept_diff == "down" ~ "decreasing",
+                            Jan_diff == "neutral" & Sept_diff == "neutral" ~ "stable",
+                            Jan_diff != Sept_diff ~ "stable",
+                            TRUE ~ NA_character_))
+
+
+library(ggh4x)
+# plot heatmap
+heatmap_genus_1pct = 
+  heatmap_data_long %>% 
+  filter(tax_label != "Other max.<1%") %>% 
+  left_join(., taxon_changes %>% select(tax_label, change), by = "tax_label") %>% 
+  mutate(Sample_name = factor(Sample_name, 
+                                levels = c("Jan_IB", "Jan_B1", "Jan_B2", 
+                                           "Sept_IB", "Sept_B1", "Sept_B2")),
+         month = case_when(grepl("Jan", Sample_name) ~ "January",
+                           grepl("Sept", Sample_name) ~ "September",
+                           TRUE ~ NA_character_),
+         month = factor(month, levels = c("September", "January")),
+         bottle = str_remove(Sample_name, "^.*_"),
+         bottle = factor(bottle, levels = c("IB", "B1", "B2")),
+         change = factor(change, levels = c("increasing", "decreasing", "stable"))) %>% 
+ggplot(aes(Sample_name, tax_label) ) +
+  geom_tile(aes(fill = sum_rel_abund), color = NA, width = 1.2) +
+  labs(x = NULL, y=NULL) +
+  #scale_y_discrete(limits = colnames(m)[rev(clust$order)]) +
+  scale_fill_gradient(low = "white", high = "darkred",
+                      name = "Relative\nAbundance (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_blank(),
+        strip.text = element_text(angle = 0),
+        axis.ticks = element_blank(),
+        axis.text.y = element_markdown(size = 8),
+        plot.background = element_blank(),
+        panel.border = element_rect(colour = "white", fill = NA),
+        panel.grid = element_blank(),
+        panel.background = element_blank(),
+        panel.spacing = unit(0, "lines"),
+        plot.title = element_markdown()) +
+  facet_nested(rows = vars(change), cols = vars(month, bottle), space = "free", scales = "free") +
+  geom_text(
+  aes(label = ifelse(sum_rel_abund > 5, round(sum_rel_abund, digits = 0), "")),
+  color = "grey80", size = unit(2.5, "pt")) +
+  geom_text(
+  aes(label = ifelse(sum_rel_abund <= 5 & sum_rel_abund > 1, round(sum_rel_abund, digits = 0), "")),
+  color = "grey50", size = unit(2.5, "pt")) +
+  geom_text(
+  aes(label = ifelse(tax_label != "Other max.<1%" & sum_rel_abund == 0, ".", "")),
+  color = "grey80", size = unit(5, "pt"), position = position_nudge(y=0.5))
+
+print(heatmap_genus_1pct)
+
+ggsave2(plot = heatmap_genus_1pct + 
+                ggtitle(label = expression("Genus heatmap -<br>selection of MnOB from BODAC biofilm inocula<br>with MnCO3 as energy source"), 
+                        subtitle = "Genera with abundance >1% in at least one sample" ), 
+        filename = glue("figures/{proj}_heatmap_genus_1pct.pdf"), width = 6, height = 8)
+
+# save plot data with max.<3% others
+heatmap_data_long %>% 
+  mutate(tax_label = fct_relevel(tax_label, rev(tax_order))) %>% 
+  select(Sample_name, tax_label, sum_rel_abund) %>%
+  pivot_wider(names_from = "Sample_name", values_from = "sum_rel_abund", values_fill = 0) %>%
+write.xlsx(., file = glue("output_data/{proj}_heatmap_data_genus_table_1pct.xlsx"), col_names = T)
+
+# save plot data without other category
+heatmap_data_long %>% 
+  filter(tax_label != "Other max.<1%") %>% 
+  left_join(., taxon_changes %>% select(tax_label, change), by = "tax_label") %>% 
+  mutate(Sample_name = factor(Sample_name, 
+                                levels = c("Jan_IB", "Jan_B1", "Jan_B2", 
+                                           "Sept_IB", "Sept_B1", "Sept_B2")),
+         month = case_when(grepl("Jan", Sample_name) ~ "January",
+                           grepl("Sept", Sample_name) ~ "September",
+                           TRUE ~ NA_character_),
+         month = factor(month, levels = c("September", "January")),
+         bottle = str_remove(Sample_name, "^.*_"),
+         bottle = factor(bottle, levels = c("IB", "B1", "B2")),
+         change = factor(change, levels = c("increasing", "decreasing", "stable"))) %>% 
+  pivot_wider(names_from = "Sample_name", values_from = "sum_rel_abund", values_fill = 0) %>%
+  write.xlsx(., file = glue("output_data/{proj}_heatmap_data_genus_table_min1pct.xlsx"), col_names = T) 
+  
+```

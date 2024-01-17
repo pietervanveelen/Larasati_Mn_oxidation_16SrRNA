@@ -1,0 +1,13 @@
+Table Sx;Genus level Alpha Diversity;;
+Sample;Richness;Chao1;Shannon H'
+Sept_IB;278;278.2;4.48
+Sept_B1;301;301;4.57
+Sept_B1;309;309.25;4.56
+Sept_B2;303;303;4.48
+Sept_B2;328;329;4.58
+Jan_IB;289;289;4.37
+Jan_IB;293;293;4.33
+Jan_B1;312;312;4.31
+Jan_B1;306;306.5;4.29
+Jan_B2;334;334;4.46
+Jan_B2;333;333.25;4.53
