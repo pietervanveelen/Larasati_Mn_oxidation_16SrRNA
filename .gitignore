@@ -9,6 +9,8 @@
 .Ruserdata
 figures/*.png
 figures/*.tiff
+figures/*.tif
+figures/*formatted.pdf
 output_data/*.rds
 Prelim*
 

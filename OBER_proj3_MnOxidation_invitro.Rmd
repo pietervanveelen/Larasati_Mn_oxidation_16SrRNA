@@ -81,7 +81,8 @@ if(!dir.exists("scripts/QIIME2")){dir.create("scripts/QIIME2")}
 ```
 
 ### Data import
-All input data have been created with QIIME2 and are imported in {r session_info()$platform$version}. QIIME2 scripts and parameter settings are found in separate bash files that can be found in this [Github repository](https://github.com/pietervanveelen/OBER_proj2_BODAC_seasonality).<br>
+All input data have been created with QIIME2 and are imported in R (v. 4.2.0). QIIME2 scripts and parameter settings are found in separate bash files that can be found in the dedicated [Github repository](https://github.com/pietervanveelen/Larasati_Mn_oxidation_16SrRNA).<br>
+With this RMarkdown document, the repository contains input data (metadata and QIIME2 .qza files), QIIME2 and R scripts in the scripts folder for full reproducibility of the reported results and figures.
 
 ```{r import data, message=F, echo=T, eval=T, warning=T, include=F, cache=F}
 
@@ -820,24 +821,45 @@ plot_Order
 
 # Towards alpha and beta diversity
 
-
-
-
-
-
-
 ### Relative abundance of Genus
-```{r rel abund barplot, message=F, echo=T, eval=T, warning=T, include=T, cache=T}
+```{r rel abund barplot, message=F, echo=T, eval=T, warning=T, include=T, cache=T, fig.width=5, fig.height=8}
 
 #input data
-#psdata_OBER_rare # rarefied ASV level
-#psdata_OBER_rare_Genus # Genus agglomerated after rarefied at ASV level
+# psdata_OBER_rare # rarefied ASV level
+# Genus agglomerated after rarefied at ASV level
+psdata_OBER_rare_Genus 
+
+ps_Genus<- psmelt(transform_sample_counts(psdata_OBER_rare_Genus, fun = function(x) x/sum(x)))
+
+### write rel abund data plus other tax info (min1pct)
+ps_Genus %>% 
+  # filter(!grepl("mock", combined), # remove mock communities
+  #        Sample_mock != "blank") %>% # remove NC blanks
+  as_tibble() %>% 
+  select(Sample, Sample_name, Sample_type, Replicate, Kingdom:Genus, Abundance) %>% 
+  group_by_at(vars(-Abundance)) %>% 
+  summarize(rel_abund = sum(Abundance), .groups = "drop") %>% 
+  group_by_at(vars(-rel_abund)) %>% 
+  summarize(mean_rel_abund = 100* mean(rel_abund), .groups = "drop") %>% 
+  select(Kingdom:Genus, Sample, Sample_name, mean_rel_abund) %>% 
+  pivot_wider(names_from = Sample, values_from = mean_rel_abund, values_fill = 0) %>% 
+  group_by_at(vars(Kingdom:Genus)) %>% 
+  rowwise() %>% 
+  mutate(mean = mean(c_across(where(is.numeric)))) %>% 
+  arrange(desc(mean)) %>% 
+  select(-mean) %>% 
+  ungroup() %>% 
+  mutate(across(where(is.numeric), ~round(.x, digits = 2))) %>% 
+  write_csv("output_data/OBER_proj3_MnOx_relative_Genus_abundances_sorted_by_overall_mean.csv", col_names = T, append = F)
+
+
+### Genus filtered > min 1 pct 
 psdata_OBER_rare_Genus_min1pct # filtered to retain >1%
 
-ps_Genus <- psmelt(transform_sample_counts(psdata_OBER_rare_Genus_min1pct, fun = function(x) x/sum(x)))
+ps_Genus_min1pct <- psmelt(transform_sample_counts(psdata_OBER_rare_Genus_min1pct, fun = function(x) x/sum(x)))
 
-### write rel abund data plus other tax info
-ps_Genus %>% 
+### write rel abund data plus other tax info (min1pct)
+ps_Genus_min1pct %>% 
   # filter(!grepl("mock", combined), # remove mock communities
   #        Sample_mock != "blank") %>% # remove NC blanks
   as_tibble() %>% 
@@ -860,15 +882,24 @@ ps_Genus %>%
 
 
 # count n genera n = 159 after 1pct filter
-ps_Genus %>% 
+ps_Genus_min1pct %>% 
   as_tibble() %>% 
   mutate(Genus = factor(Genus)) %>% 
   pull(Genus) %>% 
   levels() %>% 
   length()
 
-
 Genus_abundances <- ps_Genus %>% 
+  as_tibble() %>% 
+  select(Sample, Sample_name, Sample_type, Replicate, Family, Genus, Abundance) %>% 
+  group_by(Sample, Sample_name, Sample_type, Replicate, Family, Genus) %>% 
+  summarize(rel_abund = sum(Abundance), .groups = "drop") %>% 
+  group_by(Sample, Sample_name, Sample_type, Replicate, Family, Genus) %>% 
+  summarize(mean_rel_abund = 100* mean(rel_abund), .groups = "drop") %>% 
+  mutate(Genus = str_replace(Genus, "(.*)_unclassified", "Unclassified *\\1*"),
+         Genus = str_replace(Genus, "^(\\S*)$", "*\\1*"))
+
+Genus_abundances_1pct <- ps_Genus_min1pct %>% 
   as_tibble() %>% 
   select(Sample, Sample_name, Sample_type, Replicate, Family, Genus, Abundance) %>% 
   group_by(Sample, Sample_name, Sample_type, Replicate, Family, Genus) %>% 
@@ -885,13 +916,13 @@ Genus_pool <- Genus_abundances %>%
             mean = mean(mean_rel_abund), 
             .groups = "drop")
   
-Genus_pool_1pct <- Genus_abundances %>% 
+Genus_pool_1pct <- Genus_abundances_1pct %>% 
   group_by(Genus) %>% 
   summarize(pool = max(mean_rel_abund) < 1, 
             mean = mean(mean_rel_abund), 
             .groups = "drop")
   
-inner_join(Genus_abundances, Genus_pool_1pct, by="Genus") %>% 
+inner_join(Genus_abundances_1pct, Genus_pool_1pct, by="Genus") %>% 
   mutate(Genus = if_else(pool, "Other", Genus)) %>% 
   group_by(Genus) %>%
   summarize(mean_rel_abund = sum(mean_rel_abund), 
@@ -900,8 +931,8 @@ inner_join(Genus_abundances, Genus_pool_1pct, by="Genus") %>%
   mutate(Genus = factor(Genus), 
          Genus = fct_reorder(Genus, mean, .desc = T))
 
-plot_Genus <-
-inner_join(Genus_abundances, Genus_pool_1pct, by="Genus") %>% 
+plot_Genus_1pct <-
+inner_join(Genus_abundances_1pct, Genus_pool_1pct, by="Genus") %>% 
   mutate(Genus = if_else(pool, "Other", Genus)) %>% 
   group_by(Sample, Sample_name, Sample_type, Replicate, Genus) %>% 
   summarize(mean_rel_abund = sum(mean_rel_abund), 
@@ -933,7 +964,7 @@ ggplot(aes(x=Sample, y = mean_rel_abund, fill = Genus)) +
   facet_wrap(~Sample_name, scales = "free")
 
 barplot_genus_table_1pct =
-  inner_join(Genus_abundances, Genus_pool_1pct, by="Genus") %>% 
+  inner_join(Genus_abundances_1pct, Genus_pool_1pct, by="Genus") %>% 
   mutate(Genus = if_else(pool, "Other", Genus)) %>% 
   group_by(Sample, Sample_type, Replicate, Genus) %>% 
   summarize(mean_rel_abund = sum(mean_rel_abund), 
@@ -955,7 +986,7 @@ barplot_genus_table_1pct %>%
 write.xlsx(., file = "output_data/genus_table_1pct.xlsx", col_names = T)  
   
     
-plot_Genus
+plot_Genus_1pct
 
 ```
 
